@@ -193,3 +193,34 @@ df_porcentajes = pd.DataFrame.from_dict(porcentajes, orient='index')
 
 # Guardar el DataFrame como un archivo CSV
 df_porcentajes.to_csv('data/porcentajes.csv', header=['Probabilidad Victoria', 'Probabilidad Empate', 'Probabilidad Derrota'], index_label='Equipo')
+
+def actualizar_victorias(diccionario_victorias, df):
+    # Iterar sobre las filas del DataFrame
+    for index, row in df.iterrows():
+        equipo_ganador = row['Winner']
+        # Verificar si el equipo ganador está en el diccionario
+        if equipo_ganador in diccionario_victorias:
+            diccionario_victorias[equipo_ganador] += 1
+        else:
+            # Si el equipo no está en el diccionario, agregarlo con 1 victoria
+            diccionario_victorias[equipo_ganador] = 1
+    return diccionario_victorias
+
+# Crear un diccionario vacío para almacenar las victorias de los equipos
+diccionario_victorias = {}
+
+#dataframes
+df_list = [df2017, df2018, df2019, df2020, df2021, df2022]
+
+# Iterar sobre los DataFrames y actualizar el diccionario de victorias
+for df in df_list:
+    diccionario_victorias = actualizar_victorias(diccionario_victorias, df)
+
+# Crear un DataFrame a partir del diccionario
+df_victorias = pd.DataFrame(list(diccionario_victorias.items()), columns=['Equipo', 'Victorias'])
+
+# Ordenar los datos por número de victorias
+df_victorias = df_victorias.sort_values(by='Victorias', ascending=False)
+
+# Guardar el DataFrame como un archivo CSV
+df_victorias.to_csv('data/victorias.csv', index=False)
