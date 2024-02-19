@@ -187,7 +187,6 @@ def calcular_porcentajes(goles_totales, victorias_champions, puntos_uefa):
 
 # Calcular los porcentajes
 porcentajes = calcular_porcentajes(diccionario_equipos_goles, diccionario_equipos_champions, diccionario_equipos_ranking)
-print(porcentajes)
 
 # Convertir el diccionario de porcentajes a DataFrame
 df_porcentajes = pd.DataFrame.from_dict(porcentajes, orient='index')

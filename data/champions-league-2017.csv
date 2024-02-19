@@ -1,17 +1,17 @@
 Match Number,Round Number,Home Team,Away Team,Result,Winner,Home Team Goals,Away Team Goals,Match Goals
 1,1,Benfica,CSKA Moscow,1 - 2,CSKA Moscow,1,2,3
 2,1,Manchester United,FC Basel,3 - 0,Manchester United,3,0,3
-13,1,Bayern München,Anderlecht,3 - 0,Bayern Munich,3,0,3
+13,1,Bayern München,Anderlecht,3 - 0,Bayern München,3,0,3
 14,1,Celtic,Paris Saint-Germain,0 - 5,Paris Saint-Germain,0,5,5
 25,1,Chelsea,Qarabag FK,6 - 0,Chelsea,6,0,6
 26,1,AS Roma,Atlético Madrid,0 - 0,Atlético Madrid,0,0,0
-37,1,FC Barcelona,Juventus,3 - 0,Barcelona,3,0,3
-38,1,Olympiakos Piraeus,Sporting CP Lisbon,2 - 3,Sporting CP,2,3,5
+37,1,FC Barcelona,Juventus,3 - 0,FC Barcelona,3,0,3
+38,1,Olympiakos Piraeus,Sporting CP Lisbon,2 - 3,Sporting CP Lisbon,2,3,5
 49,1,NK Maribor,Spartak Moscow,1 - 1,Spartak Moscow,1,1,2
 50,1,Liverpool,Sevilla,2 - 2,Sevilla,2,2,4
 61,1,Feyenoord,Manchester City,0 - 4,Manchester City,0,4,4
 62,1,Shakhtar Donetsk,Napoli,2 - 1,Shakhtar Donetsk,2,1,3
-73,1,RB Leipzig,AS Monaco,1 - 1,Monaco,1,1,2
+73,1,RB Leipzig,AS Monaco,1 - 1,AS Monaco,1,1,2
 74,1,FC Porto,Besiktas,1 - 3,Besiktas,1,3,4
 85,1,Real Madrid,APOEL Nicosia,3 - 0,Real Madrid,3,0,3
 86,1,Tottenham Hotspur,Borussia Dortmund,3 - 1,Tottenham Hotspur,3,1,4
@@ -20,16 +20,16 @@ Match Number,Round Number,Home Team,Away Team,Result,Winner,Home Team Goals,Away
 63,2,Napoli,Feyenoord,3 - 1,Napoli,3,1,4
 64,2,Manchester City,Shakhtar Donetsk,2 - 0,Manchester City,2,0,2
 75,2,Besiktas,RB Leipzig,2 - 0,Besiktas,2,0,2
-76,2,AS Monaco,FC Porto,0 - 3,Porto,0,3,3
+76,2,AS Monaco,FC Porto,0 - 3,FC Porto,0,3,3
 87,2,Borussia Dortmund,Real Madrid,1 - 3,Real Madrid,1,3,4
 88,2,APOEL Nicosia,Tottenham Hotspur,0 - 3,Tottenham Hotspur,0,3,3
-27,2,Qarabag FK,AS Roma,1 - 2,Roma,1,2,3
-3,2,FC Basel,Benfica,5 - 0,Basel,5,0,5
+27,2,Qarabag FK,AS Roma,1 - 2,AS Roma,1,2,3
+3,2,FC Basel,Benfica,5 - 0,FC Basel,5,0,5
 4,2,CSKA Moscow,Manchester United,1 - 4,Manchester United,1,4,5
 15,2,Paris Saint-Germain,Bayern München,3 - 0,Paris Saint-Germain,3,0,3
 16,2,Anderlecht,Celtic,0 - 3,Celtic,0,3,3
 28,2,Atlético Madrid,Chelsea,1 - 2,Chelsea,1,2,3
-39,2,Sporting CP Lisbon,FC Barcelona,0 - 1,Barcelona,0,1,1
+39,2,Sporting CP Lisbon,FC Barcelona,0 - 1,FC Barcelona,0,1,1
 40,2,Juventus,Olympiakos Piraeus,2 - 0,Juventus,2,0,2
 53,3,Spartak Moscow,Sevilla,5 - 1,Spartak Moscow,5,1,6
 54,3,NK Maribor,Liverpool,0 - 7,Liverpool,0,7,7
@@ -40,31 +40,31 @@ Match Number,Round Number,Home Team,Away Team,Result,Winner,Home Team Goals,Away
 89,3,APOEL Nicosia,Borussia Dortmund,1 - 1,Borussia Dortmund,1,1,2
 90,3,Real Madrid,Tottenham Hotspur,1 - 1,Tottenham Hotspur,1,1,2
 29,3,Qarabag FK,Atlético Madrid,0 - 0,Atlético Madrid,0,0,0
-5,3,CSKA Moscow,FC Basel,0 - 2,Basel,0,2,2
+5,3,CSKA Moscow,FC Basel,0 - 2,FC Basel,0,2,2
 6,3,Benfica,Manchester United,0 - 1,Manchester United,0,1,1
 17,3,Anderlecht,Paris Saint-Germain,0 - 4,Paris Saint-Germain,0,4,4
-18,3,Bayern München,Celtic,3 - 0,Bayern Munich,3,0,3
-30,3,Chelsea,AS Roma,3 - 3,Roma,3,3,6
+18,3,Bayern München,Celtic,3 - 0,Bayern München,3,0,3
+30,3,Chelsea,AS Roma,3 - 3,AS Roma,3,3,6
 41,3,Juventus,Sporting CP Lisbon,2 - 1,Juventus,2,1,3
-42,3,FC Barcelona,Olympiakos Piraeus,3 - 1,Barcelona,3,1,4
+42,3,FC Barcelona,Olympiakos Piraeus,3 - 1,FC Barcelona,3,1,4
 7,4,FC Basel,CSKA Moscow,1 - 2,CSKA Moscow,1,2,3
 8,4,Manchester United,Benfica,2 - 0,Manchester United,2,0,2
 19,4,Paris Saint-Germain,Anderlecht,5 - 0,Paris Saint-Germain,5,0,5
-20,4,Celtic,Bayern München,1 - 2,Bayern Munich,1,2,3
-31,4,Atlético Madrid,Qarabag FK,1 - 1,Qarabag,1,1,2
-32,4,AS Roma,Chelsea,3 - 0,Roma,3,0,3
+20,4,Celtic,Bayern München,1 - 2,Bayern München,1,2,3
+31,4,Atlético Madrid,Qarabag FK,1 - 1,Qarabag FK,1,1,2
+32,4,AS Roma,Chelsea,3 - 0,AS Roma,3,0,3
 43,4,Sporting CP Lisbon,Juventus,1 - 1,Juventus,1,1,2
-44,4,Olympiakos Piraeus,FC Barcelona,0 - 0,Barcelona,0,0,0
-79,4,Besiktas,AS Monaco,1 - 1,Monaco,1,1,2
+44,4,Olympiakos Piraeus,FC Barcelona,0 - 0,FC Barcelona,0,0,0
+79,4,Besiktas,AS Monaco,1 - 1,AS Monaco,1,1,2
 55,4,Sevilla,Spartak Moscow,2 - 1,Sevilla,2,1,3
 56,4,Liverpool,NK Maribor,3 - 0,Liverpool,3,0,3
 67,4,Napoli,Manchester City,2 - 4,Manchester City,2,4,6
 68,4,Shakhtar Donetsk,Feyenoord,3 - 1,Shakhtar Donetsk,3,1,4
-80,4,FC Porto,RB Leipzig,3 - 1,Porto,3,1,4
-91,4,Borussia Dortmund,APOEL Nicosia,1 - 1,APOEL,1,1,2
+80,4,FC Porto,RB Leipzig,3 - 1,FC Porto,3,1,4
+91,4,Borussia Dortmund,APOEL Nicosia,1 - 1,APOEL Nicosia,1,1,2
 92,4,Tottenham Hotspur,Real Madrid,3 - 1,Tottenham Hotspur,3,1,4
-57,5,Spartak Moscow,NK Maribor,1 - 1,Maribor,1,1,2
-81,5,Besiktas,FC Porto,1 - 1,Porto,1,1,2
+57,5,Spartak Moscow,NK Maribor,1 - 1,NK Maribor,1,1,2
+81,5,Besiktas,FC Porto,1 - 1,FC Porto,1,1,2
 58,5,Sevilla,Liverpool,3 - 3,Liverpool,3,3,6
 69,5,Manchester City,Feyenoord,1 - 0,Manchester City,1,0,1
 70,5,Napoli,Shakhtar Donetsk,3 - 0,Napoli,3,0,3
@@ -73,54 +73,54 @@ Match Number,Round Number,Home Team,Away Team,Result,Winner,Home Team Goals,Away
 94,5,Borussia Dortmund,Tottenham Hotspur,1 - 2,Tottenham Hotspur,1,2,3
 9,5,CSKA Moscow,Benfica,2 - 0,CSKA Moscow,2,0,2
 33,5,Qarabag FK,Chelsea,0 - 4,Chelsea,0,4,4
-10,5,FC Basel,Manchester United,1 - 0,Basel,1,0,1
-21,5,Anderlecht,Bayern München,1 - 2,Bayern Munich,1,2,3
+10,5,FC Basel,Manchester United,1 - 0,FC Basel,1,0,1
+21,5,Anderlecht,Bayern München,1 - 2,Bayern München,1,2,3
 22,5,Paris Saint-Germain,Celtic,7 - 1,Paris Saint-Germain,7,1,8
 34,5,Atlético Madrid,AS Roma,2 - 0,Atlético Madrid,2,0,2
-45,5,Juventus,FC Barcelona,0 - 0,Barcelona,0,0,0
-46,5,Sporting CP Lisbon,Olympiakos Piraeus,3 - 1,Sporting CP,3,1,4
-11,6,Benfica,FC Basel,0 - 2,Basel,0,2,2
+45,5,Juventus,FC Barcelona,0 - 0,FC Barcelona,0,0,0
+46,5,Sporting CP Lisbon,Olympiakos Piraeus,3 - 1,Sporting CP Lisbon,3,1,4
+11,6,Benfica,FC Basel,0 - 2,FC Basel,0,2,2
 12,6,Manchester United,CSKA Moscow,2 - 1,Manchester United,2,1,3
-23,6,Bayern München,Paris Saint-Germain,3 - 1,Bayern Munich,3,1,4
+23,6,Bayern München,Paris Saint-Germain,3 - 1,Bayern München,3,1,4
 24,6,Celtic,Anderlecht,0 - 1,Anderlecht,0,1,1
 35,6,Chelsea,Atlético Madrid,1 - 1,Atlético Madrid,1,1,2
-36,6,AS Roma,Qarabag FK,1 - 0,Roma,1,0,1
-47,6,FC Barcelona,Sporting CP Lisbon,2 - 0,Barcelona,2,0,2
+36,6,AS Roma,Qarabag FK,1 - 0,AS Roma,1,0,1
+47,6,FC Barcelona,Sporting CP Lisbon,2 - 0,FC Barcelona,2,0,2
 48,6,Olympiakos Piraeus,Juventus,0 - 2,Juventus,0,2,2
 59,6,NK Maribor,Sevilla,1 - 1,Sevilla,1,1,2
 60,6,Liverpool,Spartak Moscow,7 - 0,Liverpool,7,0,7
 71,6,Feyenoord,Napoli,2 - 1,Feyenoord,2,1,3
 72,6,Shakhtar Donetsk,Manchester City,2 - 1,Shakhtar Donetsk,2,1,3
 83,6,RB Leipzig,Besiktas,1 - 2,Besiktas,1,2,3
-84,6,FC Porto,AS Monaco,5 - 2,Porto,5,2,7
+84,6,FC Porto,AS Monaco,5 - 2,FC Porto,5,2,7
 95,6,Real Madrid,Borussia Dortmund,3 - 2,Real Madrid,3,2,5
 96,6,Tottenham Hotspur,APOEL Nicosia,3 - 0,Tottenham Hotspur,3,0,3
 97,Round of 16 - Game 1,Juventus,Tottenham Hotspur,2 - 2,Tottenham Hotspur,2,2,4
 98,Round of 16 - Game 1,FC Basel,Manchester City,0 - 4,Manchester City,0,4,4
 99,Round of 16 - Game 1,FC Porto,Liverpool,0 - 5,Liverpool,0,5,5
 100,Round of 16 - Game 1,Real Madrid,Paris Saint-Germain,3 - 1,Real Madrid,3,1,4
-101,Round of 16 - Game 1,Chelsea,FC Barcelona,1 - 1,Barcelona,1,1,2
-102,Round of 16 - Game 1,Bayern München,Besiktas,5 - 0,Bayern Munich,5,0,5
+101,Round of 16 - Game 1,Chelsea,FC Barcelona,1 - 1,FC Barcelona,1,1,2
+102,Round of 16 - Game 1,Bayern München,Besiktas,5 - 0,Bayern München,5,0,5
 103,Round of 16 - Game 1,Sevilla,Manchester United,0 - 0,Manchester United,0,0,0
 104,Round of 16 - Game 1,Shakhtar Donetsk,AS Roma,2 - 1,Shakhtar Donetsk,2,1,3
-105,Round of 16 - Game 2,Liverpool,FC Porto,0 - 0,Porto,0,0,0
+105,Round of 16 - Game 2,Liverpool,FC Porto,0 - 0,FC Porto,0,0,0
 106,Round of 16 - Game 2,Paris Saint-Germain,Real Madrid,1 - 2,Real Madrid,1,2,3
 107,Round of 16 - Game 2,Tottenham Hotspur,Juventus,1 - 2,Juventus,1,2,3
-108,Round of 16 - Game 2,Manchester City,FC Basel,1 - 2,Basel,1,2,3
+108,Round of 16 - Game 2,Manchester City,FC Basel,1 - 2,FC Basel,1,2,3
 109,Round of 16 - Game 2,Manchester United,Sevilla,1 - 2,Sevilla,1,2,3
-110,Round of 16 - Game 2,AS Roma,Shakhtar Donetsk,1 - 0,Roma,1,0,1
-112,Round of 16 - Game 2,Besiktas,Bayern München,1 - 3,Bayern Munich,1,3,4
-111,Round of 16 - Game 2,FC Barcelona,Chelsea,3 - 0,Barcelona,3,0,3
-113,Qtr Finals - Game 1,Sevilla,Bayern München,1 - 2,Bayern Munich,1,2,3
+110,Round of 16 - Game 2,AS Roma,Shakhtar Donetsk,1 - 0,AS Roma,1,0,1
+112,Round of 16 - Game 2,Besiktas,Bayern München,1 - 3,Bayern München,1,3,4
+111,Round of 16 - Game 2,FC Barcelona,Chelsea,3 - 0,FC Barcelona,3,0,3
+113,Qtr Finals - Game 1,Sevilla,Bayern München,1 - 2,Bayern München,1,2,3
 114,Qtr Finals - Game 1,Juventus,Real Madrid,0 - 3,Real Madrid,0,3,3
 115,Qtr Finals - Game 1,Liverpool,Manchester City,3 - 0,Liverpool,3,0,3
-116,Qtr Finals - Game 1,FC Barcelona,AS Roma,4 - 1,Barcelona,4,1,5
+116,Qtr Finals - Game 1,FC Barcelona,AS Roma,4 - 1,FC Barcelona,4,1,5
 117,Qtr Finals - Game 2,Manchester City,Liverpool,1 - 2,Liverpool,1,2,3
-118,Qtr Finals - Game 2,AS Roma,FC Barcelona,3 - 0,Roma,3,0,3
+118,Qtr Finals - Game 2,AS Roma,FC Barcelona,3 - 0,AS Roma,3,0,3
 119,Qtr Finals - Game 2,Bayern München,Sevilla,0 - 0,Sevilla,0,0,0
 120,Qtr Finals - Game 2,Real Madrid,Juventus,1 - 3,Juventus,1,3,4
 121,Semi Finals - Game 1,Liverpool,AS Roma,5 - 2,Liverpool,5,2,7
 122,Semi Finals - Game 1,Bayern München,Real Madrid,1 - 2,Real Madrid,1,2,3
-123,Semi Finals - Game 2,Real Madrid,Bayern München,2 - 2,Bayern Munich,2,2,4
-124,Semi Finals - Game 2,AS Roma,Liverpool,4 - 2,Roma,4,2,6
+123,Semi Finals - Game 2,Real Madrid,Bayern München,2 - 2,Bayern München,2,2,4
+124,Semi Finals - Game 2,AS Roma,Liverpool,4 - 2,AS Roma,4,2,6
 125,Final,Real Madrid,Liverpool,3 - 1,Real Madrid,3,1,4
