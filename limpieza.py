@@ -161,7 +161,7 @@ equipos_sin_ranking = [equipo for equipo, goles in diccionario_equipos_ranking.i
 print("Equipos sin ranking:", equipos_sin_ranking)'''
 
 # Función para calcular los porcentajes de victoria, empate y derrota
-#arbitraria de momento, en el futuro usara los datos de champions ganadas y ranking uefa
+#arbitraria de momento, en el futuro se podria hacer una funcion mas compleja
 def calcular_porcentajes(goles_totales, victorias_champions, puntos_uefa):
     porcentajes = {}
     total_equipos = len(goles_totales)
