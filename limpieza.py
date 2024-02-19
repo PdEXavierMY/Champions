@@ -45,16 +45,17 @@ procesar_datos(df2021)
 procesar_datos(df2022)
 
 # Ver si hay valores nulos
+'''
 print(df2017.isnull().sum())
 print(df2018.isnull().sum())
 print(df2019.isnull().sum())
 print(df2020.isnull().sum())
 print(df2021.isnull().sum())
 print(df2022.isnull().sum())
+'''
 
 # Sacar una lista con los valores unicos de la columna Club de UEFA-Ranking
-equipos = dfUEFARanking['Club'].unique()
-print(equipos)
+equipos_ranking = set(dfUEFARanking['Club'].dropna().unique())
 
 # Obtener valores únicos de las columnas 'Home Team' y 'Away Team' de cada DataFrame
 equipos_unicos = set(df2017['Home Team'].unique()).union(set(df2017['Away Team'].unique()))
@@ -70,10 +71,11 @@ equipos_unicos.update(df2022['Home Team'].unique())
 equipos_unicos.update(df2022['Away Team'].unique())
 
 # Convertir el conjunto a una lista
-equipos_unicos = list(equipos_unicos)
-
-print("Lista de equipos únicos sin repeticiones:")
-print(equipos_unicos)
+equipos_unicos = set(equipos_unicos)
 
 # Eliminar los equipos que coinciden en ambas listas
 equipos_no_coincidentes = equipos_unicos - equipos_ranking
+print(equipos_no_coincidentes)
+
+#cambio de nombre de equipos
+#Porto por FC Porto
