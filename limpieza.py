@@ -145,11 +145,13 @@ diccionario_equipos_champions = actualizar_equipos_champions(diccionario_equipos
 diccionario_equipos_ranking = actualizar_equipos_ranking(diccionario_equipos_ranking)
 
 print(diccionario_equipos_champions)
-diccionario_equipos_champions = {equipo: int(goles) if isinstance(goles, str) else goles for equipo, goles in diccionario_equipos_champions.items()}
 
+'''
+diccionario_equipos_champions = {equipo: int(goles) if isinstance(goles, str) else goles for equipo, goles in diccionario_equipos_champions.items()}
 # Sumar los valores en el diccionario
 suma = sum(diccionario_equipos_champions.values())
-
 print("La suma de todos los valores en el diccionario es:", suma)
+'''
+
 print(diccionario_equipos_ranking)
 
