@@ -7,6 +7,7 @@ df2020 = pd.read_csv('data/champions-league-2020-UTC.csv')
 df2021 = pd.read_csv('data/champions-league-2021-UTC.csv')
 df2022 = pd.read_csv('data/champions-league-2022-UTC.csv')
 df2023 = pd.read_csv('data/champions-league-2023-UTC.csv')
+dfUEFARanking = pd.read_csv('data/UEFA_Ranking.csv')
 
 # Eliminar las columnas que no interesan de los DataFrames (Date, Location, Group)
 
@@ -42,3 +43,37 @@ procesar_datos(df2019)
 procesar_datos(df2020)
 procesar_datos(df2021)
 procesar_datos(df2022)
+
+# Ver si hay valores nulos
+print(df2017.isnull().sum())
+print(df2018.isnull().sum())
+print(df2019.isnull().sum())
+print(df2020.isnull().sum())
+print(df2021.isnull().sum())
+print(df2022.isnull().sum())
+
+# Sacar una lista con los valores unicos de la columna Club de UEFA-Ranking
+equipos = dfUEFARanking['Club'].unique()
+print(equipos)
+
+# Obtener valores únicos de las columnas 'Home Team' y 'Away Team' de cada DataFrame
+equipos_unicos = set(df2017['Home Team'].unique()).union(set(df2017['Away Team'].unique()))
+equipos_unicos.update(df2018['Home Team'].unique())
+equipos_unicos.update(df2018['Away Team'].unique())
+equipos_unicos.update(df2019['Home Team'].unique())
+equipos_unicos.update(df2019['Away Team'].unique())
+equipos_unicos.update(df2020['Home Team'].unique())
+equipos_unicos.update(df2020['Away Team'].unique())
+equipos_unicos.update(df2021['Home Team'].unique())
+equipos_unicos.update(df2021['Away Team'].unique())
+equipos_unicos.update(df2022['Home Team'].unique())
+equipos_unicos.update(df2022['Away Team'].unique())
+
+# Convertir el conjunto a una lista
+equipos_unicos = list(equipos_unicos)
+
+print("Lista de equipos únicos sin repeticiones:")
+print(equipos_unicos)
+
+# Eliminar los equipos que coinciden en ambas listas
+equipos_no_coincidentes = equipos_unicos - equipos_ranking
