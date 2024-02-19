@@ -44,14 +44,6 @@ procesar_datos(df2020)
 procesar_datos(df2021)
 procesar_datos(df2022)
 
-#eliminar la columna result
-df2017 = df2017.drop(["Result"], axis=1)
-df2018 = df2018.drop(["Result"], axis=1)
-df2019 = df2019.drop(["Result"], axis=1)
-df2020 = df2020.drop(["Result"], axis=1)
-df2021 = df2021.drop(["Result"], axis=1)
-df2022 = df2022.drop(["Result"], axis=1)
-
 # Ver si hay valores nulos
 '''
 print(df2017.isnull().sum())
@@ -69,3 +61,43 @@ df2019.to_csv('data/champions-league-2019.csv', index=False)
 df2020.to_csv('data/champions-league-2020.csv', index=False)
 df2021.to_csv('data/champions-league-2021.csv', index=False)
 df2022.to_csv('data/champions-league-2022.csv', index=False)
+
+
+# crear un csv de equipos con goles totales segun los datos
+diccionario_equipos_goles = {}
+
+
+def actualizar_diccionario_desde_csv(csv_file, diccionario):
+    # Leer el archivo CSV
+    df = pd.read_csv(csv_file)
+    
+    # Iterar sobre cada fila del DataFrame
+    for index, row in df.iterrows():
+        # Obtener el nombre del equipo local y sus goles
+        equipo_local = row['Home Team']
+        goles_local = row['Home Team Goals']
+        
+        # Actualizar el diccionario con los goles del equipo local
+        if equipo_local in diccionario:
+            diccionario[equipo_local] += goles_local
+        else:
+            diccionario[equipo_local] = goles_local
+        
+        # Obtener el nombre del equipo visitante y sus goles
+        equipo_visitante = row['Away Team']
+        goles_visitante = row['Away Team Goals']
+        
+        # Actualizar el diccionario con los goles del equipo visitante
+        if equipo_visitante in diccionario:
+            diccionario[equipo_visitante] += goles_visitante
+        else:
+            diccionario[equipo_visitante] = goles_visitante
+    
+    return diccionario
+
+for csv_file in ['data/champions-league-2017.csv', 'data/champions-league-2018.csv', 'data/champions-league-2019.csv', 'data/champions-league-2020.csv', 'data/champions-league-2021.csv', 'data/champions-league-2022.csv']:
+    diccionario_equipos_goles = actualizar_diccionario_desde_csv(csv_file, diccionario_equipos_goles)
+
+# ordenar el diccionario de mayor goles a menor
+diccionario_equipos_goles = dict(sorted(diccionario_equipos_goles.items(), key=lambda item: item[1], reverse=True))
+print(diccionario_equipos_goles)
