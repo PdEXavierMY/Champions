@@ -126,25 +126,25 @@ def actualizar_equipos_champions(diccionario_equipos_champions, diccionario_equi
     
     return diccionario_equipos_champions
 
-def actualizar_equipos_ranking(diccionario_equipos_ranking):
+def actualizar_equipos_ranking(diccionario_equipos_ranking, diccionario_equipos_goles):
     # Leer el archivo CSV del ranking UEFA
     df_uefa_ranking = pd.read_csv('data/UEFA_Ranking.csv')
 
     # Iterar sobre los equipos en el diccionario de equipos y actualizar los datos del ranking UEFA
-    for equipo in diccionario_equipos_ranking.keys():
+    for equipo, goles in diccionario_equipos_goles.items():
         # Buscar el equipo en el DataFrame del ranking UEFA
-        puntuaje_equipo = df_uefa_ranking[df_uefa_ranking['Club'] == equipo]['Total Points'].values
-        if len(puntuaje_equipo) > 0:
-            diccionario_equipos_ranking[equipo] = puntuaje_equipo[0]
+        puntuacion_equipo = df_uefa_ranking[df_uefa_ranking['Club'] == equipo]['Total Points'].values
+        if len(puntuacion_equipo) > 0:
+            diccionario_equipos_ranking[equipo] = puntuacion_equipo[0]
         else:
             diccionario_equipos_ranking[equipo] = None
     
     return diccionario_equipos_ranking
 
 diccionario_equipos_champions = actualizar_equipos_champions(diccionario_equipos_champions, diccionario_equipos_goles)
-diccionario_equipos_ranking = actualizar_equipos_ranking(diccionario_equipos_ranking)
+diccionario_equipos_ranking = actualizar_equipos_ranking(diccionario_equipos_ranking, diccionario_equipos_goles)
 
-print(diccionario_equipos_champions)
+#print(diccionario_equipos_champions)
 
 '''
 diccionario_equipos_champions = {equipo: int(goles) if isinstance(goles, str) else goles for equipo, goles in diccionario_equipos_champions.items()}
@@ -153,5 +153,9 @@ suma = sum(diccionario_equipos_champions.values())
 print("La suma de todos los valores en el diccionario es:", suma)
 '''
 
-print(diccionario_equipos_ranking)
+#print(diccionario_equipos_ranking)
+'''
+#sacar los nombres de equipos con values None en el diccionario de ranking
+equipos_sin_ranking = [equipo for equipo, goles in diccionario_equipos_ranking.items() if goles is None]
+print("Equipos sin ranking:", equipos_sin_ranking)'''
 

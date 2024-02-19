@@ -147,9 +147,9 @@ for i in range(len(data)):
 for i in range(len(data)):
     df = pd.read_csv(data[i])
     df['Home Team'] = df['Home Team'].replace(
-        ['Olympiakos', 'Olympiakos Piraeus'], 'Olympiakos Piraeus')
+        ['Olympiakos', 'Olympiakos Piraeus', 'Olympiacos'], 'Olympiakos Piraeus')
     df['Away Team'] = df['Away Team'].replace(
-        ['Olympiakos', 'Olympiakos Piraeus'], 'Olympiakos Piraeus')
+        ['Olympiakos', 'Olympiakos Piraeus', 'Olympiacos'], 'Olympiakos Piraeus')
     df.to_csv(data[i], index=False)
 
 # 'Inter", "Internazionale' por 'Internazionale"
@@ -262,14 +262,234 @@ for i in range(len(data)):
         ['Valencia', 'Valencia CF'], 'Valencia')
     df.to_csv(data[i], index=False)
 
-# 'Lepizig', 'RB Leipzig' por 'RB Leipzig"
+# 'Lepizig', 'RB Leipzig', 'Leipzig' por 'RB Leipzig"
 
 for i in range(len(data)):
     df = pd.read_csv(data[i])
     df['Home Team'] = df['Home Team'].replace(
-        ['Lepizig', 'RB Leipzig'], 'RB Leipzig')
+        ['Lepizig', 'RB Leipzig', 'Leipzig'], 'RB Leipzig')
     df['Away Team'] = df['Away Team'].replace(
-        ['Lepizig', 'RB Leipzig'], 'RB Leipzig')
+        ['Lepizig', 'RB Leipzig', 'Leipzig'], 'RB Leipzig')
+    df.to_csv(data[i], index=False)
+
+# 'Salzburg', 'Red Bull Salzburg' por 'FC Salzburg"
+    
+for i in range(len(data)):
+    df = pd.read_csv(data[i])
+    df['Home Team'] = df['Home Team'].replace(
+        ['Salzburg', 'Red Bull Salzburg'], 'FC Salzburg')
+    df['Away Team'] = df['Away Team'].replace(
+        ['Salzburg', 'Red Bull Salzburg'], 'FC Salzburg')
+    df.to_csv(data[i], index=False)
+
+# 'Sporting', 'Sporting CP' por 'Sporting CP Lisbon"
+    
+for i in range(len(data)):
+    df = pd.read_csv(data[i])
+    df['Home Team'] = df['Home Team'].replace(
+        ['Sporting', 'Sporting CP'], 'Sporting CP Lisbon')
+    df['Away Team'] = df['Away Team'].replace(
+        ['Sporting', 'Sporting CP'], 'Sporting CP Lisbon')
+    df.to_csv(data[i], index=False)
+
+# 'Lyon', 'Olympique Lyon' por 'Olympique Lyon"
+    
+for i in range(len(data)):
+    df = pd.read_csv(data[i])
+    df['Home Team'] = df['Home Team'].replace(
+        ['Lyon', 'Olympique Lyon'], 'Olympique Lyon')
+    df['Away Team'] = df['Away Team'].replace(
+        ['Lyon', 'Olympique Lyon'], 'Olympique Lyon')
+    df.to_csv(data[i], index=False)
+
+# 'Lokomotive Moscow', 'Lokomotiv Moscow', 'Lokomotiv Moskva' por 'Lokomotiv Moscow"
+    
+for i in range(len(data)):
+    df = pd.read_csv(data[i])
+    df['Home Team'] = df['Home Team'].replace(
+        ['Lokomotive Moscow', 'Lokomotiv Moscow', 'Lokomotiv Moskva'], 'Lokomotiv Moscow')
+    df['Away Team'] = df['Away Team'].replace(
+        ['Lokomotive Moscow', 'Lokomotiv Moscow', 'Lokomotiv Moskva'], 'Lokomotiv Moscow')
+    df.to_csv(data[i], index=False)
+
+# 'Plzen', 'Viktoria Plzen' por 'Viktoria Plzen"
+    
+for i in range(len(data)):
+    df = pd.read_csv(data[i])
+    df['Home Team'] = df['Home Team'].replace(
+        ['Plzen', 'Viktoria Plzen'], 'Viktoria Plzen')
+    df['Away Team'] = df['Away Team'].replace(
+        ['Plzen', 'Viktoria Plzen'], 'Viktoria Plzen')
+    df.to_csv(data[i], index=False)
+
+# 'LOSC', 'Lille' por 'Lille OSC"
+    
+for i in range(len(data)):
+    df = pd.read_csv(data[i])
+    df['Home Team'] = df['Home Team'].replace(
+        ['LOSC', 'Lille'], 'Lille OSC')
+    df['Away Team'] = df['Away Team'].replace(
+        ['LOSC', 'Lille'], 'Lille OSC')
+    df.to_csv(data[i], index=False)
+
+# 'Hoffenheim', 'TSG Hoffenheim' por '1899 Hoffenheim"
+    
+for i in range(len(data)):
+    df = pd.read_csv(data[i])
+    df['Home Team'] = df['Home Team'].replace(
+        ['Hoffenheim', 'TSG Hoffenheim'], '1899 Hoffenheim')
+    df['Away Team'] = df['Away Team'].replace(
+        ['Hoffenheim', 'TSG Hoffenheim'], '1899 Hoffenheim')
+    df.to_csv(data[i], index=False)
+
+# 'Marseille', 'Olympique Marseille' por 'Olympique Marseille"
+    
+for i in range(len(data)):
+    df = pd.read_csv(data[i])
+    df['Home Team'] = df['Home Team'].replace(
+        ['Marseille', 'Olympique Marseille'], 'Olympique Marseille')
+    df['Away Team'] = df['Away Team'].replace(
+        ['Marseille', 'Olympique Marseille'], 'Olympique Marseille')
+    df.to_csv(data[i], index=False)
+
+# 'Sheriff Tiraspol', 'Sheriff' por 'Sheriff Tiraspol"
+    
+for i in range(len(data)):
+    df = pd.read_csv(data[i])
+    df['Home Team'] = df['Home Team'].replace(
+        ['Sheriff Tiraspol', 'Sheriff'], 'Sheriff Tiraspol')
+    df['Away Team'] = df['Away Team'].replace(
+        ['Sheriff Tiraspol', 'Sheriff'], 'Sheriff Tiraspol')
+    df.to_csv(data[i], index=False)
+
+# 'M. Haifa', 'Maccabi Haifa' por 'Maccabi Haifa"
+    
+for i in range(len(data)):
+    df = pd.read_csv(data[i])
+    df['Home Team'] = df['Home Team'].replace(
+        ['M. Haifa', 'Maccabi Haifa'], 'Maccabi Haifa')
+    df['Away Team'] = df['Away Team'].replace(
+        ['M. Haifa', 'Maccabi Haifa'], 'Maccabi Haifa')
+    df.to_csv(data[i], index=False)
+
+# 'Frankfurt', 'Eintracht Frankfurt' por 'Eintracht Frankfurt"
+    
+for i in range(len(data)):
+    df = pd.read_csv(data[i])
+    df['Home Team'] = df['Home Team'].replace(
+        ['Frankfurt', 'Eintracht Frankfurt'], 'Eintracht Frankfurt')
+    df['Away Team'] = df['Away Team'].replace(
+        ['Frankfurt', 'Eintracht Frankfurt'], 'Eintracht Frankfurt')
+    df.to_csv(data[i], index=False)
+
+# 'Krasnodar', 'FC Krasnodar' por 'FK Krasnodar"
+    
+for i in range(len(data)):
+    df = pd.read_csv(data[i])
+    df['Home Team'] = df['Home Team'].replace(
+        ['Krasnodar', 'FC Krasnodar'], 'FK Krasnodar')
+    df['Away Team'] = df['Away Team'].replace(
+        ['Krasnodar', 'FC Krasnodar'], 'FK Krasnodar')
+    df.to_csv(data[i], index=False)
+
+# 'Genk', 'KRC Genk' por 'Racing Genk"
+    
+for i in range(len(data)):
+    df = pd.read_csv(data[i])
+    df['Home Team'] = df['Home Team'].replace(
+        ['Genk', 'KRC Genk'], 'Racing Genk')
+    df['Away Team'] = df['Away Team'].replace(
+        ['Genk', 'KRC Genk'], 'Racing Genk')
+    df.to_csv(data[i], index=False)
+
+# 'Wolfsburg', 'VfL Wolfsburg' por 'VfL Wolfsburg"
+    
+for i in range(len(data)):
+    df = pd.read_csv(data[i])
+    df['Home Team'] = df['Home Team'].replace(
+        ['Wolfsburg', 'VfL Wolfsburg'], 'VfL Wolfsburg')
+    df['Away Team'] = df['Away Team'].replace(
+        ['Wolfsburg', 'VfL Wolfsburg'], 'VfL Wolfsburg')
+    df.to_csv(data[i], index=False)
+
+# 'Midtjylland', 'FC Midtjylland' por 'FC Midtjylland"
+    
+for i in range(len(data)):
+    df = pd.read_csv(data[i])
+    df['Home Team'] = df['Home Team'].replace(
+        ['Midtjylland', 'FC Midtjylland'], 'FC Midtjylland')
+    df['Away Team'] = df['Away Team'].replace(
+        ['Midtjylland', 'FC Midtjylland'], 'FC Midtjylland')
+    df.to_csv(data[i], index=False)
+
+# 'Maribor', 'NK Maribor' por 'NK Maribor"
+    
+for i in range(len(data)):
+    df = pd.read_csv(data[i])
+    df['Home Team'] = df['Home Team'].replace(
+        ['Maribor', 'NK Maribor'], 'NK Maribor')
+    df['Away Team'] = df['Away Team'].replace(
+        ['Maribor', 'NK Maribor'], 'NK Maribor')
+    df.to_csv(data[i], index=False)
+
+# 'Rennes', 'Stade Rennais' por 'Stade Rennais"
+    
+for i in range(len(data)):
+    df = pd.read_csv(data[i])
+    df['Home Team'] = df['Home Team'].replace(
+        ['Rennes', 'Stade Rennais'], 'Stade Rennais')
+    df['Away Team'] = df['Away Team'].replace(
+        ['Rennes', 'Stade Rennais'], 'Stade Rennais')
+    df.to_csv(data[i], index=False)
+
+# 'Qarabag', 'Qarabag Agdam' por 'Qarabag FK"
+    
+for i in range(len(data)):
+    df = pd.read_csv(data[i])
+    df['Home Team'] = df['Home Team'].replace(
+        ['Qarabag', 'Qarabag Agdam'], 'Qarabag FK')
+    df['Away Team'] = df['Away Team'].replace(
+        ['Qarabag', 'Qarabag Agdam'], 'Qarabag FK')
+    df.to_csv(data[i], index=False)
+
+# 'AEK', 'AEK Athens' por 'AEK Athens"
+    
+for i in range(len(data)):
+    df = pd.read_csv(data[i])
+    df['Home Team'] = df['Home Team'].replace(
+        ['AEK', 'AEK Athens'], 'AEK Athens')
+    df['Away Team'] = df['Away Team'].replace(
+        ['AEK', 'AEK Athens'], 'AEK Athens')
+    df.to_csv(data[i], index=False)
+
+# 'Rangers', 'Rangers FC' por 'Glasgow Rangers"
+    
+for i in range(len(data)):
+    df = pd.read_csv(data[i])
+    df['Home Team'] = df['Home Team'].replace(
+        ['Rangers', 'Rangers FC'], 'Glasgow Rangers')
+    df['Away Team'] = df['Away Team'].replace(
+        ['Rangers', 'Rangers FC'], 'Glasgow Rangers')
+    df.to_csv(data[i], index=False)
+
+# 'Malmo FF', 'Malmö FF' por 'Malmö FF"
+    
+for i in range(len(data)):
+    df = pd.read_csv(data[i])
+    df['Home Team'] = df['Home Team'].replace(
+        ['Malmo FF', 'Malmö FF'], 'Malmö FF')
+    df['Away Team'] = df['Away Team'].replace(
+        ['Malmo FF', 'Malmö FF'], 'Malmö FF')
+    df.to_csv(data[i], index=False)
+
+# 'Copenhagen', 'FC Copenhagen' por 'FC København"
+    
+for i in range(len(data)):
+    df = pd.read_csv(data[i])
+    df['Home Team'] = df['Home Team'].replace(
+        ['Copenhagen', 'FC Copenhagen'], 'FC København')
+    df['Away Team'] = df['Away Team'].replace(
+        ['Copenhagen', 'FC Copenhagen'], 'FC København')
     df.to_csv(data[i], index=False)
 
 # 'Atalanta', 'Atalanta BC' por 'Atlantas Klaipeda"
@@ -318,14 +538,4 @@ for i in range(len(data)):
         ['PSV', 'PSV Eindhoven'], 'PSV Eindhoven')
     df['Away Team'] = df['Away Team'].replace(
         ['PSV', 'PSV Eindhoven'], 'PSV Eindhoven')
-    df.to_csv(data[i], index=False)
-
-# 'Malmo', 'Malmö', 'Malmö FF' por 'Malmo FF"
-
-for i in range(len(data)):
-    df = pd.read_csv(data[i])
-    df['Home Team'] = df['Home Team'].replace(
-        ['Malmo', 'Malmö', 'Malmö FF'], 'Malmo FF')
-    df['Away Team'] = df['Away Team'].replace(
-        ['Malmo', 'Malmö', 'Malmö FF'], 'Malmo FF')
     df.to_csv(data[i], index=False)

@@ -3,11 +3,11 @@ Match Number,Round Number,Home Team,Away Team,Result,Winner,Home Team Goals,Away
 2,1,Manchester United,FC Basel,3 - 0,Manchester United,3,0,3
 13,1,Bayern München,Anderlecht,3 - 0,Bayern Munich,3,0,3
 14,1,Celtic,Paris Saint-Germain,0 - 5,Paris Saint-Germain,0,5,5
-25,1,Chelsea,Qarabag,6 - 0,Chelsea,6,0,6
+25,1,Chelsea,Qarabag FK,6 - 0,Chelsea,6,0,6
 26,1,AS Roma,Atlético Madrid,0 - 0,Atlético Madrid,0,0,0
 37,1,FC Barcelona,Juventus,3 - 0,Barcelona,3,0,3
-38,1,Olympiacos,Sporting CP,2 - 3,Sporting CP,2,3,5
-49,1,Maribor,Spartak Moscow,1 - 1,Spartak Moscow,1,1,2
+38,1,Olympiakos Piraeus,Sporting CP Lisbon,2 - 3,Sporting CP,2,3,5
+49,1,NK Maribor,Spartak Moscow,1 - 1,Spartak Moscow,1,1,2
 50,1,Liverpool,Sevilla,2 - 2,Sevilla,2,2,4
 61,1,Feyenoord,Manchester City,0 - 4,Manchester City,0,4,4
 62,1,Shakhtar Donetsk,Napoli,2 - 1,Shakhtar Donetsk,2,1,3
@@ -15,7 +15,7 @@ Match Number,Round Number,Home Team,Away Team,Result,Winner,Home Team Goals,Away
 74,1,FC Porto,Besiktas,1 - 3,Besiktas,1,3,4
 85,1,Real Madrid,APOEL Nicosia,3 - 0,Real Madrid,3,0,3
 86,1,Tottenham Hotspur,Borussia Dortmund,3 - 1,Tottenham Hotspur,3,1,4
-51,2,Sevilla,Maribor,3 - 0,Sevilla,3,0,3
+51,2,Sevilla,NK Maribor,3 - 0,Sevilla,3,0,3
 52,2,Spartak Moscow,Liverpool,1 - 1,Liverpool,1,1,2
 63,2,Napoli,Feyenoord,3 - 1,Napoli,3,1,4
 64,2,Manchester City,Shakhtar Donetsk,2 - 0,Manchester City,2,0,2
@@ -23,47 +23,47 @@ Match Number,Round Number,Home Team,Away Team,Result,Winner,Home Team Goals,Away
 76,2,AS Monaco,FC Porto,0 - 3,Porto,0,3,3
 87,2,Borussia Dortmund,Real Madrid,1 - 3,Real Madrid,1,3,4
 88,2,APOEL Nicosia,Tottenham Hotspur,0 - 3,Tottenham Hotspur,0,3,3
-27,2,Qarabag,AS Roma,1 - 2,Roma,1,2,3
+27,2,Qarabag FK,AS Roma,1 - 2,Roma,1,2,3
 3,2,FC Basel,Benfica,5 - 0,Basel,5,0,5
 4,2,CSKA Moscow,Manchester United,1 - 4,Manchester United,1,4,5
 15,2,Paris Saint-Germain,Bayern München,3 - 0,Paris Saint-Germain,3,0,3
 16,2,Anderlecht,Celtic,0 - 3,Celtic,0,3,3
 28,2,Atlético Madrid,Chelsea,1 - 2,Chelsea,1,2,3
-39,2,Sporting CP,FC Barcelona,0 - 1,Barcelona,0,1,1
-40,2,Juventus,Olympiacos,2 - 0,Juventus,2,0,2
+39,2,Sporting CP Lisbon,FC Barcelona,0 - 1,Barcelona,0,1,1
+40,2,Juventus,Olympiakos Piraeus,2 - 0,Juventus,2,0,2
 53,3,Spartak Moscow,Sevilla,5 - 1,Spartak Moscow,5,1,6
-54,3,Maribor,Liverpool,0 - 7,Liverpool,0,7,7
+54,3,NK Maribor,Liverpool,0 - 7,Liverpool,0,7,7
 65,3,Manchester City,Napoli,2 - 1,Manchester City,2,1,3
 66,3,Feyenoord,Shakhtar Donetsk,1 - 2,Shakhtar Donetsk,1,2,3
 77,3,AS Monaco,Besiktas,1 - 2,Besiktas,1,2,3
 78,3,RB Leipzig,FC Porto,3 - 2,RB Leipzig,3,2,5
 89,3,APOEL Nicosia,Borussia Dortmund,1 - 1,Borussia Dortmund,1,1,2
 90,3,Real Madrid,Tottenham Hotspur,1 - 1,Tottenham Hotspur,1,1,2
-29,3,Qarabag,Atlético Madrid,0 - 0,Atlético Madrid,0,0,0
+29,3,Qarabag FK,Atlético Madrid,0 - 0,Atlético Madrid,0,0,0
 5,3,CSKA Moscow,FC Basel,0 - 2,Basel,0,2,2
 6,3,Benfica,Manchester United,0 - 1,Manchester United,0,1,1
 17,3,Anderlecht,Paris Saint-Germain,0 - 4,Paris Saint-Germain,0,4,4
 18,3,Bayern München,Celtic,3 - 0,Bayern Munich,3,0,3
 30,3,Chelsea,AS Roma,3 - 3,Roma,3,3,6
-41,3,Juventus,Sporting CP,2 - 1,Juventus,2,1,3
-42,3,FC Barcelona,Olympiacos,3 - 1,Barcelona,3,1,4
+41,3,Juventus,Sporting CP Lisbon,2 - 1,Juventus,2,1,3
+42,3,FC Barcelona,Olympiakos Piraeus,3 - 1,Barcelona,3,1,4
 7,4,FC Basel,CSKA Moscow,1 - 2,CSKA Moscow,1,2,3
 8,4,Manchester United,Benfica,2 - 0,Manchester United,2,0,2
 19,4,Paris Saint-Germain,Anderlecht,5 - 0,Paris Saint-Germain,5,0,5
 20,4,Celtic,Bayern München,1 - 2,Bayern Munich,1,2,3
-31,4,Atlético Madrid,Qarabag,1 - 1,Qarabag,1,1,2
+31,4,Atlético Madrid,Qarabag FK,1 - 1,Qarabag,1,1,2
 32,4,AS Roma,Chelsea,3 - 0,Roma,3,0,3
-43,4,Sporting CP,Juventus,1 - 1,Juventus,1,1,2
-44,4,Olympiacos,FC Barcelona,0 - 0,Barcelona,0,0,0
+43,4,Sporting CP Lisbon,Juventus,1 - 1,Juventus,1,1,2
+44,4,Olympiakos Piraeus,FC Barcelona,0 - 0,Barcelona,0,0,0
 79,4,Besiktas,AS Monaco,1 - 1,Monaco,1,1,2
 55,4,Sevilla,Spartak Moscow,2 - 1,Sevilla,2,1,3
-56,4,Liverpool,Maribor,3 - 0,Liverpool,3,0,3
+56,4,Liverpool,NK Maribor,3 - 0,Liverpool,3,0,3
 67,4,Napoli,Manchester City,2 - 4,Manchester City,2,4,6
 68,4,Shakhtar Donetsk,Feyenoord,3 - 1,Shakhtar Donetsk,3,1,4
 80,4,FC Porto,RB Leipzig,3 - 1,Porto,3,1,4
 91,4,Borussia Dortmund,APOEL Nicosia,1 - 1,APOEL,1,1,2
 92,4,Tottenham Hotspur,Real Madrid,3 - 1,Tottenham Hotspur,3,1,4
-57,5,Spartak Moscow,Maribor,1 - 1,Maribor,1,1,2
+57,5,Spartak Moscow,NK Maribor,1 - 1,Maribor,1,1,2
 81,5,Besiktas,FC Porto,1 - 1,Porto,1,1,2
 58,5,Sevilla,Liverpool,3 - 3,Liverpool,3,3,6
 69,5,Manchester City,Feyenoord,1 - 0,Manchester City,1,0,1
@@ -72,22 +72,22 @@ Match Number,Round Number,Home Team,Away Team,Result,Winner,Home Team Goals,Away
 93,5,APOEL Nicosia,Real Madrid,0 - 6,Real Madrid,0,6,6
 94,5,Borussia Dortmund,Tottenham Hotspur,1 - 2,Tottenham Hotspur,1,2,3
 9,5,CSKA Moscow,Benfica,2 - 0,CSKA Moscow,2,0,2
-33,5,Qarabag,Chelsea,0 - 4,Chelsea,0,4,4
+33,5,Qarabag FK,Chelsea,0 - 4,Chelsea,0,4,4
 10,5,FC Basel,Manchester United,1 - 0,Basel,1,0,1
 21,5,Anderlecht,Bayern München,1 - 2,Bayern Munich,1,2,3
 22,5,Paris Saint-Germain,Celtic,7 - 1,Paris Saint-Germain,7,1,8
 34,5,Atlético Madrid,AS Roma,2 - 0,Atlético Madrid,2,0,2
 45,5,Juventus,FC Barcelona,0 - 0,Barcelona,0,0,0
-46,5,Sporting CP,Olympiacos,3 - 1,Sporting CP,3,1,4
+46,5,Sporting CP Lisbon,Olympiakos Piraeus,3 - 1,Sporting CP,3,1,4
 11,6,Benfica,FC Basel,0 - 2,Basel,0,2,2
 12,6,Manchester United,CSKA Moscow,2 - 1,Manchester United,2,1,3
 23,6,Bayern München,Paris Saint-Germain,3 - 1,Bayern Munich,3,1,4
 24,6,Celtic,Anderlecht,0 - 1,Anderlecht,0,1,1
 35,6,Chelsea,Atlético Madrid,1 - 1,Atlético Madrid,1,1,2
-36,6,AS Roma,Qarabag,1 - 0,Roma,1,0,1
-47,6,FC Barcelona,Sporting CP,2 - 0,Barcelona,2,0,2
-48,6,Olympiacos,Juventus,0 - 2,Juventus,0,2,2
-59,6,Maribor,Sevilla,1 - 1,Sevilla,1,1,2
+36,6,AS Roma,Qarabag FK,1 - 0,Roma,1,0,1
+47,6,FC Barcelona,Sporting CP Lisbon,2 - 0,Barcelona,2,0,2
+48,6,Olympiakos Piraeus,Juventus,0 - 2,Juventus,0,2,2
+59,6,NK Maribor,Sevilla,1 - 1,Sevilla,1,1,2
 60,6,Liverpool,Spartak Moscow,7 - 0,Liverpool,7,0,7
 71,6,Feyenoord,Napoli,2 - 1,Feyenoord,2,1,3
 72,6,Shakhtar Donetsk,Manchester City,2 - 1,Shakhtar Donetsk,2,1,3

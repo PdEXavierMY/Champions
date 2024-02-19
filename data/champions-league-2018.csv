@@ -6,37 +6,37 @@ Match Number,Round Number,Home Team,Away Team,Result,Winner,Home Team Goals,Away
 5,1,Crvena zvezda,Napoli,0 - 0,Napoli,0,0,0
 6,1,Liverpool,Paris Saint-Germain,3 - 2,Liverpool,3,2,5
 7,1,Schalke 04,FC Porto,1 - 1,Porto,1,1,2
-8,1,Galatasaray,Lokomotiv Moskva,3 - 0,Galatasaray,3,0,3
-9,1,Ajax,AEK,3 - 0,Ajax,3,0,3
-10,1,Shakhtar Donetsk,Hoffenheim,2 - 2,Hoffenheim,2,2,4
+8,1,Galatasaray,Lokomotiv Moscow,3 - 0,Galatasaray,3,0,3
+9,1,Ajax,AEK Athens,3 - 0,Ajax,3,0,3
+10,1,Shakhtar Donetsk,1899 Hoffenheim,2 - 2,Hoffenheim,2,2,4
 11,1,Benfica,Bayern München,0 - 2,Bayern,0,2,2
-12,1,Manchester City,Lyon,1 - 2,Lyon,1,2,3
-13,1,Plzen,CSKA Moscow,2 - 2,CSKA Moskva,2,2,4
+12,1,Manchester City,Olympique Lyon,1 - 2,Lyon,1,2,3
+13,1,Viktoria Plzen,CSKA Moscow,2 - 2,CSKA Moskva,2,2,4
 14,1,Real Madrid,AS Roma,3 - 0,Real Madrid,3,0,3
 15,1,Valencia,Juventus,0 - 2,Juventus,0,2,2
 16,1,Young Boys,Manchester United,0 - 3,Man. United,0,3,3
-17,2,Hoffenheim,Manchester City,1 - 2,Man. City,1,2,3
+17,2,1899 Hoffenheim,Manchester City,1 - 2,Man. City,1,2,3
 18,2,Juventus,Young Boys,3 - 0,Juventus,3,0,3
-19,2,AEK,Benfica,2 - 3,Benfica,2,3,5
+19,2,AEK Athens,Benfica,2 - 3,Benfica,2,3,5
 20,2,Bayern München,Ajax,1 - 1,Ajax,1,1,2
-21,2,Lyon,Shakhtar Donetsk,2 - 2,Shakhtar Donetsk,2,2,4
-22,2,AS Roma,Plzen,5 - 0,Roma,5,0,5
+21,2,Olympique Lyon,Shakhtar Donetsk,2 - 2,Shakhtar Donetsk,2,2,4
+22,2,AS Roma,Viktoria Plzen,5 - 0,Roma,5,0,5
 23,2,CSKA Moscow,Real Madrid,1 - 0,CSKA Moskva,1,0,1
 24,2,Manchester United,Valencia,0 - 0,Valencia,0,0,0
 25,2,Paris Saint-Germain,Crvena zvezda,6 - 1,Paris,6,1,7
-26,2,Lokomotiv Moskva,Schalke 04,0 - 1,Schalke,0,1,1
+26,2,Lokomotiv Moscow,Schalke 04,0 - 1,Schalke,0,1,1
 27,2,Borussia Dortmund,AS Monaco,3 - 0,Dortmund,3,0,3
 28,2,Atlético Madrid,Club Brugge,3 - 1,Atlético,3,1,4
 29,2,PSV Eindhoven,Internazionale,1 - 2,Internazionale,1,2,3
 30,2,Tottenham Hotspur,FC Barcelona,2 - 4,Barcelona,2,4,6
 31,2,Napoli,Liverpool,1 - 0,Napoli,1,0,1
 32,2,FC Porto,Galatasaray,1 - 0,Porto,1,0,1
-33,3,AEK,Bayern München,0 - 2,Bayern,0,2,2
+33,3,AEK Athens,Bayern München,0 - 2,Bayern,0,2,2
 34,3,Young Boys,Valencia,1 - 1,Valencia,1,1,2
 35,3,Ajax,Benfica,1 - 0,Ajax,1,0,1
 36,3,Shakhtar Donetsk,Manchester City,0 - 3,Man. City,0,3,3
-37,3,Hoffenheim,Lyon,3 - 3,Lyon,3,3,6
-38,3,Real Madrid,Plzen,2 - 1,Real Madrid,2,1,3
+37,3,1899 Hoffenheim,Olympique Lyon,3 - 3,Lyon,3,3,6
+38,3,Real Madrid,Viktoria Plzen,2 - 1,Real Madrid,2,1,3
 39,3,AS Roma,CSKA Moscow,3 - 0,Roma,3,0,3
 40,3,Manchester United,Juventus,0 - 1,Juventus,0,1,1
 41,3,Club Brugge,AS Monaco,1 - 1,Monaco,1,1,2
@@ -46,7 +46,7 @@ Match Number,Round Number,Home Team,Away Team,Result,Winner,Home Team Goals,Away
 45,3,Liverpool,Crvena zvezda,4 - 0,Liverpool,4,0,4
 46,3,Paris Saint-Germain,Napoli,2 - 2,Napoli,2,2,4
 47,3,Galatasaray,Schalke 04,0 - 0,Schalke,0,0,0
-48,3,Lokomotiv Moskva,FC Porto,1 - 3,Porto,1,3,4
+48,3,Lokomotiv Moscow,FC Porto,1 - 3,Porto,1,3,4
 49,4,AS Monaco,Club Brugge,0 - 4,Club Brugge,0,4,4
 50,4,Crvena zvezda,Liverpool,2 - 0,Crvena zvezda,2,0,2
 51,4,Atlético Madrid,Borussia Dortmund,2 - 0,Atlético,2,0,2
@@ -54,32 +54,32 @@ Match Number,Round Number,Home Team,Away Team,Result,Winner,Home Team Goals,Away
 53,4,Tottenham Hotspur,PSV Eindhoven,2 - 1,Tottenham,2,1,3
 54,4,Napoli,Paris Saint-Germain,1 - 1,Paris,1,1,2
 55,4,Schalke 04,Galatasaray,2 - 0,Schalke,2,0,2
-56,4,FC Porto,Lokomotiv Moskva,4 - 1,Porto,4,1,5
+56,4,FC Porto,Lokomotiv Moscow,4 - 1,Porto,4,1,5
 57,4,CSKA Moscow,AS Roma,1 - 2,Roma,1,2,3
 58,4,Valencia,Young Boys,3 - 1,Valencia,3,1,4
 59,4,Benfica,Ajax,1 - 1,Ajax,1,1,2
-60,4,Bayern München,AEK,2 - 0,Bayern,2,0,2
+60,4,Bayern München,AEK Athens,2 - 0,Bayern,2,0,2
 61,4,Manchester City,Shakhtar Donetsk,6 - 0,Man. City,6,0,6
-62,4,Lyon,Hoffenheim,2 - 2,Hoffenheim,2,2,4
-63,4,Plzen,Real Madrid,0 - 5,Real Madrid,0,5,5
+62,4,Olympique Lyon,1899 Hoffenheim,2 - 2,Hoffenheim,2,2,4
+63,4,Viktoria Plzen,Real Madrid,0 - 5,Real Madrid,0,5,5
 64,4,Juventus,Manchester United,1 - 2,Man. United,1,2,3
-65,5,AEK,Ajax,0 - 2,Ajax,0,2,2
-66,5,CSKA Moscow,Plzen,1 - 2,Plzen,1,2,3
+65,5,AEK Athens,Ajax,0 - 2,Ajax,0,2,2
+66,5,CSKA Moscow,Viktoria Plzen,1 - 2,Plzen,1,2,3
 67,5,Bayern München,Benfica,5 - 1,Bayern,5,1,6
-68,5,Lyon,Manchester City,2 - 2,Man. City,2,2,4
-69,5,Hoffenheim,Shakhtar Donetsk,2 - 3,Shakhtar Donetsk,2,3,5
+68,5,Olympique Lyon,Manchester City,2 - 2,Man. City,2,2,4
+69,5,1899 Hoffenheim,Shakhtar Donetsk,2 - 3,Shakhtar Donetsk,2,3,5
 70,5,AS Roma,Real Madrid,0 - 2,Real Madrid,0,2,2
 71,5,Juventus,Valencia,1 - 0,Juventus,1,0,1
 72,5,Manchester United,Young Boys,1 - 0,Man. United,1,0,1
 73,5,Atlético Madrid,AS Monaco,2 - 0,Atlético,2,0,2
-74,5,Lokomotiv Moskva,Galatasaray,2 - 0,Lokomotiv Moskva,2,0,2
+74,5,Lokomotiv Moscow,Galatasaray,2 - 0,Lokomotiv Moskva,2,0,2
 75,5,Borussia Dortmund,Club Brugge,0 - 0,Club Brugge,0,0,0
 76,5,Tottenham Hotspur,Internazionale,1 - 0,Tottenham,1,0,1
 77,5,PSV Eindhoven,FC Barcelona,1 - 2,Barcelona,1,2,3
 78,5,Napoli,Crvena zvezda,3 - 1,Napoli,3,1,4
 79,5,Paris Saint-Germain,Liverpool,2 - 1,Paris,2,1,3
 80,5,FC Porto,Schalke 04,3 - 1,Porto,3,1,4
-81,6,Schalke 04,Lokomotiv Moskva,1 - 0,Schalke,1,0,1
+81,6,Schalke 04,Lokomotiv Moscow,1 - 0,Schalke,1,0,1
 82,6,Galatasaray,FC Porto,2 - 3,Porto,2,3,5
 83,6,AS Monaco,Borussia Dortmund,0 - 2,Dortmund,0,2,2
 84,6,Club Brugge,Atlético Madrid,0 - 0,Atlético,0,0,0
@@ -87,19 +87,19 @@ Match Number,Round Number,Home Team,Away Team,Result,Winner,Home Team Goals,Away
 86,6,FC Barcelona,Tottenham Hotspur,1 - 1,Tottenham,1,1,2
 87,6,Crvena zvezda,Paris Saint-Germain,1 - 4,Paris,1,4,5
 88,6,Liverpool,Napoli,1 - 0,Liverpool,1,0,1
-89,6,Plzen,AS Roma,2 - 1,Plzen,2,1,3
+89,6,Viktoria Plzen,AS Roma,2 - 1,Plzen,2,1,3
 90,6,Real Madrid,CSKA Moscow,0 - 3,CSKA Moskva,0,3,3
-91,6,Benfica,AEK,1 - 0,Benfica,1,0,1
+91,6,Benfica,AEK Athens,1 - 0,Benfica,1,0,1
 92,6,Ajax,Bayern München,3 - 3,Bayern,3,3,6
-93,6,Manchester City,Hoffenheim,2 - 1,Man. City,2,1,3
-94,6,Shakhtar Donetsk,Lyon,1 - 1,Lyon,1,1,2
+93,6,Manchester City,1899 Hoffenheim,2 - 1,Man. City,2,1,3
+94,6,Shakhtar Donetsk,Olympique Lyon,1 - 1,Lyon,1,1,2
 95,6,Valencia,Manchester United,2 - 1,Valencia,2,1,3
 96,6,Young Boys,Juventus,2 - 1,Young Boys,2,1,3
 97,R16 Game 1,AS Roma,FC Porto,2 - 1,Roma,2,1,3
 98,R16 Game 1,Manchester United,Paris Saint-Germain,0 - 2,Paris,0,2,2
 99,R16 Game 1,Tottenham Hotspur,Borussia Dortmund,3 - 0,Tottenham,3,0,3
 100,R16 Game 1,Ajax,Real Madrid,1 - 2,Real Madrid,1,2,3
-101,R16 Game 1,Lyon,FC Barcelona,0 - 0,Barcelona,0,0,0
+101,R16 Game 1,Olympique Lyon,FC Barcelona,0 - 0,Barcelona,0,0,0
 102,R16 Game 1,Liverpool,Bayern München,0 - 0,Bayern,0,0,0
 103,R16 Game 1,Atlético Madrid,Juventus,2 - 0,Atlético,2,0,2
 104,R16 Game 1,Schalke 04,Manchester City,2 - 3,Man. City,2,3,5
@@ -109,7 +109,7 @@ Match Number,Round Number,Home Team,Away Team,Result,Winner,Home Team Goals,Away
 108,R16 Game 2,FC Porto,AS Roma,3 - 1,Porto,3,1,4
 109,R16 Game 2,Juventus,Atlético Madrid,3 - 0,Juventus,3,0,3
 110,R16 Game 2,Manchester City,Schalke 04,7 - 0,Man. City,7,0,7
-111,R16 Game 2,FC Barcelona,Lyon,5 - 1,Barcelona,5,1,6
+111,R16 Game 2,FC Barcelona,Olympique Lyon,5 - 1,Barcelona,5,1,6
 112,R16 Game 2,Bayern München,Liverpool,1 - 3,Liverpool,1,3,4
 113,QF Game 1,Tottenham Hotspur,Manchester City,1 - 0,Tottenham,1,0,1
 114,QF Game 1,Liverpool,FC Porto,2 - 0,Liverpool,2,0,2

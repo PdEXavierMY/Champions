@@ -1,115 +1,115 @@
 Match Number,Round Number,Home Team,Away Team,Result,Winner,Home Team Goals,Away Team Goals,Match Goals
 2,1,Young Boys,Manchester United,2 - 1,Young Boys,2,1,3
-3,1,Sevilla,Salzburg,1 - 1,Salzburg,1,1,2
+3,1,Sevilla,FC Salzburg,1 - 1,Salzburg,1,1,2
 1,1,Villarreal,Atlantas Klaipeda,2 - 2,Atalanta,2,2,4
 4,1,Dynamo Kyiv,Benfica,0 - 0,Benfica,0,0,0
 5,1,FC Barcelona,Bayern München,0 - 3,Bayern,0,3,3
-6,1,LOSC,Wolfsburg,0 - 0,Wolfsburg,0,0,0
-7,1,Malmo FF,Juventus,0 - 3,Juventus,0,3,3
+6,1,Lille OSC,VfL Wolfsburg,0 - 0,Wolfsburg,0,0,0
+7,1,Malmö FF,Juventus,0 - 3,Juventus,0,3,3
 8,1,Chelsea,Zenit St. Petersburg,1 - 0,Chelsea,1,0,1
 9,1,Besiktas,Borussia Dortmund,1 - 2,Dortmund,1,2,3
-10,1,Sheriff,Shakhtar Donetsk,2 - 0,Sheriff,2,0,2
+10,1,Sheriff Tiraspol,Shakhtar Donetsk,2 - 0,Sheriff,2,0,2
 11,1,Club Brugge,Paris Saint-Germain,1 - 1,Paris,1,1,2
-12,1,Manchester City,Leipzig,6 - 3,Man. City,6,3,9
+12,1,Manchester City,RB Leipzig,6 - 3,Man. City,6,3,9
 13,1,Atlético Madrid,FC Porto,0 - 0,Porto,0,0,0
 14,1,Liverpool,AC Milan,3 - 2,Liverpool,3,2,5
-15,1,Sporting CP,Ajax,1 - 5,Ajax,1,5,6
+15,1,Sporting CP Lisbon,Ajax,1 - 5,Ajax,1,5,6
 16,1,Internazionale,Real Madrid,0 - 1,Real Madrid,0,1,1
 17,2,Ajax,Besiktas,2 - 0,Ajax,2,0,2
 18,2,Shakhtar Donetsk,Internazionale,0 - 0,Inter,0,0,0
 19,2,Paris Saint-Germain,Manchester City,2 - 0,Paris,2,0,2
-20,2,Leipzig,Club Brugge,1 - 2,Club Brugge,1,2,3
+20,2,RB Leipzig,Club Brugge,1 - 2,Club Brugge,1,2,3
 21,2,FC Porto,Liverpool,1 - 5,Liverpool,1,5,6
 22,2,AC Milan,Atlético Madrid,1 - 2,Atlético,1,2,3
-23,2,Borussia Dortmund,Sporting CP,1 - 0,Dortmund,1,0,1
-24,2,Real Madrid,Sheriff,1 - 2,Sheriff,1,2,3
+23,2,Borussia Dortmund,Sporting CP Lisbon,1 - 0,Dortmund,1,0,1
+24,2,Real Madrid,Sheriff Tiraspol,1 - 2,Sheriff,1,2,3
 25,2,Atlantas Klaipeda,Young Boys,1 - 0,Atalanta,1,0,1
-26,2,Zenit St. Petersburg,Malmo FF,4 - 0,Zenit,4,0,4
+26,2,Zenit St. Petersburg,Malmö FF,4 - 0,Zenit,4,0,4
 27,2,Bayern München,Dynamo Kyiv,5 - 0,Bayern,5,0,5
 28,2,Benfica,FC Barcelona,3 - 0,Benfica,3,0,3
 29,2,Manchester United,Villarreal,2 - 1,Man. United,2,1,3
-30,2,Wolfsburg,Sevilla,1 - 1,Sevilla,1,1,2
-31,2,Salzburg,LOSC,2 - 1,Salzburg,2,1,3
+30,2,VfL Wolfsburg,Sevilla,1 - 1,Sevilla,1,1,2
+31,2,FC Salzburg,Lille OSC,2 - 1,Salzburg,2,1,3
 32,2,Juventus,Chelsea,1 - 0,Juventus,1,0,1
 33,3,Club Brugge,Manchester City,1 - 5,Man. City,1,5,6
-34,3,Besiktas,Sporting CP,1 - 4,Sporting CP,1,4,5
-35,3,Paris Saint-Germain,Leipzig,3 - 2,Paris,3,2,5
+34,3,Besiktas,Sporting CP Lisbon,1 - 4,Sporting CP,1,4,5
+35,3,Paris Saint-Germain,RB Leipzig,3 - 2,Paris,3,2,5
 36,3,FC Porto,AC Milan,1 - 0,Porto,1,0,1
 37,3,Atlético Madrid,Liverpool,2 - 3,Liverpool,2,3,5
 38,3,Ajax,Borussia Dortmund,4 - 0,Ajax,4,0,4
-39,3,Internazionale,Sheriff,3 - 1,Inter,3,1,4
+39,3,Internazionale,Sheriff Tiraspol,3 - 1,Inter,3,1,4
 40,3,Shakhtar Donetsk,Real Madrid,0 - 5,Real Madrid,0,5,5
 41,3,FC Barcelona,Dynamo Kyiv,1 - 0,Barcelona,1,0,1
-42,3,Salzburg,Wolfsburg,3 - 1,Salzburg,3,1,4
+42,3,FC Salzburg,VfL Wolfsburg,3 - 1,Salzburg,3,1,4
 43,3,Benfica,Bayern München,0 - 4,Bayern,0,4,4
 44,3,Young Boys,Villarreal,1 - 4,Villarreal,1,4,5
 45,3,Manchester United,Atlantas Klaipeda,3 - 2,Man. United,3,2,5
-46,3,LOSC,Sevilla,0 - 0,Sevilla,0,0,0
-47,3,Chelsea,Malmo FF,4 - 0,Chelsea,4,0,4
+46,3,Lille OSC,Sevilla,0 - 0,Sevilla,0,0,0
+47,3,Chelsea,Malmö FF,4 - 0,Chelsea,4,0,4
 48,3,Zenit St. Petersburg,Juventus,0 - 1,Juventus,0,1,1
-49,4,Wolfsburg,Salzburg,2 - 1,Wolfsburg,2,1,3
-50,4,Malmo FF,Chelsea,0 - 1,Chelsea,0,1,1
+49,4,VfL Wolfsburg,FC Salzburg,2 - 1,Wolfsburg,2,1,3
+50,4,Malmö FF,Chelsea,0 - 1,Chelsea,0,1,1
 51,4,Dynamo Kyiv,FC Barcelona,0 - 1,Barcelona,0,1,1
 52,4,Bayern München,Benfica,5 - 2,Bayern,5,2,7
 53,4,Villarreal,Young Boys,2 - 0,Villarreal,2,0,2
 54,4,Atlantas Klaipeda,Manchester United,2 - 2,Man. United,2,2,4
-55,4,Sevilla,LOSC,1 - 2,LOSC,1,2,3
+55,4,Sevilla,Lille OSC,1 - 2,LOSC,1,2,3
 56,4,Juventus,Zenit St. Petersburg,4 - 2,Juventus,4,2,6
 57,4,AC Milan,FC Porto,1 - 1,Porto,1,1,2
 58,4,Real Madrid,Shakhtar Donetsk,2 - 1,Real Madrid,2,1,3
 59,4,Manchester City,Club Brugge,4 - 1,Man. City,4,1,5
-60,4,Leipzig,Paris Saint-Germain,2 - 2,Paris,2,2,4
+60,4,RB Leipzig,Paris Saint-Germain,2 - 2,Paris,2,2,4
 61,4,Liverpool,Atlético Madrid,2 - 0,Liverpool,2,0,2
-62,4,Sporting CP,Besiktas,4 - 0,Sporting CP,4,0,4
+62,4,Sporting CP Lisbon,Besiktas,4 - 0,Sporting CP,4,0,4
 63,4,Borussia Dortmund,Ajax,1 - 3,Ajax,1,3,4
-64,4,Sheriff,Internazionale,1 - 3,Inter,1,3,4
+64,4,Sheriff Tiraspol,Internazionale,1 - 3,Inter,1,3,4
 65,5,Dynamo Kyiv,Bayern München,1 - 2,Bayern,1,2,3
 66,5,Villarreal,Manchester United,0 - 2,Man. United,0,2,2
 67,5,FC Barcelona,Benfica,0 - 0,Benfica,0,0,0
 68,5,Young Boys,Atlantas Klaipeda,3 - 3,Atalanta,3,3,6
-69,5,LOSC,Salzburg,1 - 0,LOSC,1,0,1
-70,5,Sevilla,Wolfsburg,2 - 0,Sevilla,2,0,2
-71,5,Malmo FF,Zenit St. Petersburg,1 - 1,Zenit,1,1,2
+69,5,Lille OSC,FC Salzburg,1 - 0,LOSC,1,0,1
+70,5,Sevilla,VfL Wolfsburg,2 - 0,Sevilla,2,0,2
+71,5,Malmö FF,Zenit St. Petersburg,1 - 1,Zenit,1,1,2
 72,5,Chelsea,Juventus,4 - 0,Chelsea,4,0,4
 73,5,Besiktas,Ajax,1 - 2,Ajax,1,2,3
 74,5,Internazionale,Shakhtar Donetsk,2 - 0,Inter,2,0,2
-75,5,Club Brugge,Leipzig,0 - 5,Leipzig,0,5,5
+75,5,Club Brugge,RB Leipzig,0 - 5,Leipzig,0,5,5
 76,5,Manchester City,Paris Saint-Germain,2 - 1,Man. City,2,1,3
 77,5,Atlético Madrid,AC Milan,0 - 1,Milan,0,1,1
 78,5,Liverpool,FC Porto,2 - 0,Liverpool,2,0,2
-79,5,Sporting CP,Borussia Dortmund,3 - 1,Sporting CP,3,1,4
-80,5,Sheriff,Real Madrid,0 - 3,Real Madrid,0,3,3
+79,5,Sporting CP Lisbon,Borussia Dortmund,3 - 1,Sporting CP,3,1,4
+80,5,Sheriff Tiraspol,Real Madrid,0 - 3,Real Madrid,0,3,3
 81,6,Paris Saint-Germain,Club Brugge,4 - 1,Paris,4,1,5
-82,6,Leipzig,Manchester City,2 - 1,Leipzig,2,1,3
+82,6,RB Leipzig,Manchester City,2 - 1,Leipzig,2,1,3
 83,6,AC Milan,Liverpool,1 - 2,Liverpool,1,2,3
 84,6,FC Porto,Atlético Madrid,1 - 3,Atlético,1,3,4
 85,6,Borussia Dortmund,Besiktas,5 - 0,Dortmund,5,0,5
-86,6,Ajax,Sporting CP,4 - 2,Ajax,4,2,6
+86,6,Ajax,Sporting CP Lisbon,4 - 2,Ajax,4,2,6
 87,6,Real Madrid,Internazionale,2 - 0,Real Madrid,2,0,2
-88,6,Shakhtar Donetsk,Sheriff,1 - 1,Sheriff,1,1,2
-89,6,Juventus,Malmo FF,1 - 0,Juventus,1,0,1
+88,6,Shakhtar Donetsk,Sheriff Tiraspol,1 - 1,Sheriff,1,1,2
+89,6,Juventus,Malmö FF,1 - 0,Juventus,1,0,1
 90,6,Zenit St. Petersburg,Chelsea,3 - 3,Chelsea,3,3,6
 91,6,Benfica,Dynamo Kyiv,2 - 0,Benfica,2,0,2
 92,6,Bayern München,FC Barcelona,3 - 0,Bayern,3,0,3
 93,6,Manchester United,Young Boys,1 - 1,Young Boys,1,1,2
-95,6,Salzburg,Sevilla,1 - 0,Salzburg,1,0,1
-96,6,Wolfsburg,LOSC,1 - 3,LOSC,1,3,4
+95,6,FC Salzburg,Sevilla,1 - 0,Salzburg,1,0,1
+96,6,VfL Wolfsburg,Lille OSC,1 - 3,LOSC,1,3,4
 94,6,Atlantas Klaipeda,Villarreal,2 - 3,Villarreal,2,3,5
 97,R16 Game 1,Paris Saint-Germain,Real Madrid,1 - 0,Paris,1,0,1
-98,R16 Game 1,Sporting CP,Manchester City,0 - 5,Man. City,0,5,5
+98,R16 Game 1,Sporting CP Lisbon,Manchester City,0 - 5,Man. City,0,5,5
 99,R16 Game 1,Internazionale,Liverpool,0 - 2,Liverpool,0,2,2
-100,R16 Game 1,Salzburg,Bayern München,1 - 1,Bayern,1,1,2
+100,R16 Game 1,FC Salzburg,Bayern München,1 - 1,Bayern,1,1,2
 101,R16 Game 1,Villarreal,Juventus,1 - 1,Juventus,1,1,2
-102,R16 Game 1,Chelsea,LOSC,2 - 0,Chelsea,2,0,2
+102,R16 Game 1,Chelsea,Lille OSC,2 - 0,Chelsea,2,0,2
 103,R16 Game 1,Atlético Madrid,Manchester United,1 - 1,Man. United,1,1,2
 104,R16 Game 1,Benfica,Ajax,2 - 2,Ajax,2,2,4
-105,R16 Game 2,Bayern München,Salzburg,7 - 1,Bayern,7,1,8
+105,R16 Game 2,Bayern München,FC Salzburg,7 - 1,Bayern,7,1,8
 106,R16 Game 2,Liverpool,Internazionale,0 - 1,Inter,0,1,1
-107,R16 Game 2,Manchester City,Sporting CP,0 - 0,Sporting CP,0,0,0
+107,R16 Game 2,Manchester City,Sporting CP Lisbon,0 - 0,Sporting CP,0,0,0
 108,R16 Game 2,Real Madrid,Paris Saint-Germain,3 - 1,Real Madrid,3,1,4
 109,R16 Game 2,Ajax,Benfica,0 - 1,Benfica,0,1,1
 110,R16 Game 2,Manchester United,Atlético Madrid,0 - 1,Atlético,0,1,1
-111,R16 Game 2,LOSC,Chelsea,1 - 2,Chelsea,1,2,3
+111,R16 Game 2,Lille OSC,Chelsea,1 - 2,Chelsea,1,2,3
 112,R16 Game 2,Juventus,Villarreal,0 - 3,Villarreal,0,3,3
 113,QF Game 1,Manchester City,Atlético Madrid,1 - 0,Man. City,1,0,1
 114,QF Game 1,Benfica,Liverpool,1 - 3,Liverpool,1,3,4
