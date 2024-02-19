@@ -54,28 +54,10 @@ print(df2021.isnull().sum())
 print(df2022.isnull().sum())
 '''
 
-# Sacar una lista con los valores unicos de la columna Club de UEFA-Ranking
-equipos_ranking = set(dfUEFARanking['Club'].dropna().unique())
-
-# Obtener valores únicos de las columnas 'Home Team' y 'Away Team' de cada DataFrame
-equipos_unicos = set(df2017['Home Team'].unique()).union(set(df2017['Away Team'].unique()))
-equipos_unicos.update(df2018['Home Team'].unique())
-equipos_unicos.update(df2018['Away Team'].unique())
-equipos_unicos.update(df2019['Home Team'].unique())
-equipos_unicos.update(df2019['Away Team'].unique())
-equipos_unicos.update(df2020['Home Team'].unique())
-equipos_unicos.update(df2020['Away Team'].unique())
-equipos_unicos.update(df2021['Home Team'].unique())
-equipos_unicos.update(df2021['Away Team'].unique())
-equipos_unicos.update(df2022['Home Team'].unique())
-equipos_unicos.update(df2022['Away Team'].unique())
-
-# Convertir el conjunto a una lista
-equipos_unicos = set(equipos_unicos)
-
-# Eliminar los equipos que coinciden en ambas listas
-equipos_no_coincidentes = equipos_unicos - equipos_ranking
-print(equipos_no_coincidentes)
-
-#cambio de nombre de equipos
-#Porto por FC Porto
+# a csv
+df2017.to_csv('data/champions-league-2017.csv', index=False)
+df2018.to_csv('data/champions-league-2018.csv', index=False)
+df2019.to_csv('data/champions-league-2019.csv', index=False)
+df2020.to_csv('data/champions-league-2020.csv', index=False)
+df2021.to_csv('data/champions-league-2021.csv', index=False)
+df2022.to_csv('data/champions-league-2022.csv', index=False)
