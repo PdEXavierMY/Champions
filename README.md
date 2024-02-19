@@ -1,6 +1,6 @@
 # Champions
 
-Pincha [aquí](https://github.com/Xavitheforce/Practica_Design_Patterns) para dirigirte a mi repositorio.
+Pincha [aquí](https://github.com/PdEXavierMY/Champions) para dirigirte a mi repositorio.
 
 El ejercicio trata de crear un modelo de inteligencia artificial que sea capaz de predecir de alguna manera el ganador de la Champions 2023-2024.
 
