@@ -100,4 +100,7 @@ for csv_file in ['data/champions-league-2017.csv', 'data/champions-league-2018.c
 
 # ordenar el diccionario de mayor goles a menor
 diccionario_equipos_goles = dict(sorted(diccionario_equipos_goles.items(), key=lambda item: item[1], reverse=True))
-print(diccionario_equipos_goles)
+
+# pasar el diccionario a un csv con pandas con los campos 'Equipo' y 'Goles'
+df_equipos_goles = pd.DataFrame(diccionario_equipos_goles.items(), columns=['Equipo', 'Goles'])
+df_equipos_goles.to_csv('data/equipos-goles.csv', index=False)
