@@ -241,5 +241,5 @@ También he creado una función que calcula las probabilidades de cada equipo de
 <h1>Segunda Parte: Visualización</h1>
 La visualización de los datos está realizada en el archivo graficas.ipynb. En él se encuentran gráficas como Equipos por puntos UEFA, Porcentaje de equipos con puntuacion mayor a 300, 200, 100 , Número de campeonatos de Champions por Equipo, Relación entre Champions ganadas y goles totales y equipos con mayor número de victorias en enfrentamientos.
 
-<h3>Tercera Parte: Regresión Linear</h3>
+<h1>Tercera Parte: Regresión Linear</h1>
 En esta parte se ha realizado un estudio entre las variables goles y el ranking UEFA. El análisis realizado en regresion.ipynb sugiere que efectivamente las dos variables están linealmente relacionadas. También se exploran otras estadísticas y métricas como el coeficiente R cuadrado o el error cuadrático medio.
