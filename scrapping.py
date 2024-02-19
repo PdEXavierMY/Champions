@@ -47,4 +47,4 @@ df = pd.concat([nueva_fila, df], ignore_index=True)
 df = df.drop(df.columns[[1, 3, 16]], axis=1)
 
 # Guardar el DataFrame en un archivo CSV
-df.to_csv('Datos_Limpios/UEFA_Ranking.csv', index=False)
+df.to_csv('data/UEFA_Ranking.csv', index=False)
