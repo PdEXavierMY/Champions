@@ -1,4 +1,5 @@
 import pandas as pd
+import random
 
 df2017 = pd.read_csv('data/champions-league-2017-CentralEuropeanStandardTime.csv')
 df2018 = pd.read_csv('data/champions-league-2018-WEuropeStandardTime.csv')
@@ -159,3 +160,37 @@ print("La suma de todos los valores en el diccionario es:", suma)
 equipos_sin_ranking = [equipo for equipo, goles in diccionario_equipos_ranking.items() if goles is None]
 print("Equipos sin ranking:", equipos_sin_ranking)'''
 
+# Función para calcular los porcentajes de victoria, empate y derrota
+#arbitraria de momento, en el futuro usara los datos de champions ganadas y ranking uefa
+def calcular_porcentajes(goles_totales, victorias_champions, puntos_uefa):
+    porcentajes = {}
+    total_equipos = len(goles_totales)
+
+    for equipo in goles_totales:
+        # Obtener el número de victorias en la Champions League
+        victorias = int(victorias_champions.get(equipo, 0))
+
+        # Obtener los puntos del ranking UEFA
+        puntos = puntos_uefa.get(equipo, 10)
+        
+        # Calcular las probabilidades
+        probabilidad_victoria = (victorias / total_equipos if victorias > 0 else 0.3) + (puntos / 1000 if puntos is not None and puntos > 0 else 0)
+        probabilidad_empate = 0.3
+        probabilidad_derrota = 1 - probabilidad_victoria - probabilidad_empate
+
+        # Agregar las probabilidades al diccionario
+        porcentajes[equipo] = {'Probabilidad Victoria': probabilidad_victoria,
+                               'Probabilidad Empate': probabilidad_empate,
+                               'Probabilidad Derrota': probabilidad_derrota}
+
+    return porcentajes
+
+# Calcular los porcentajes
+porcentajes = calcular_porcentajes(diccionario_equipos_goles, diccionario_equipos_champions, diccionario_equipos_ranking)
+print(porcentajes)
+
+# Convertir el diccionario de porcentajes a DataFrame
+df_porcentajes = pd.DataFrame.from_dict(porcentajes, orient='index')
+
+# Guardar el DataFrame como un archivo CSV
+df_porcentajes.to_csv('data/porcentajes.csv', header=['Probabilidad Victoria', 'Probabilidad Empate', 'Probabilidad Derrota'], index_label='Equipo')
