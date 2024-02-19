@@ -207,9 +207,9 @@ for i in range(len(data)):
 for i in range(len(data)):
     df = pd.read_csv(data[i])
     df['Home Team'] = df['Home Team'].replace(
-        ['Paris Saint-Germain', 'Paris SG', 'PSG'], 'Paris Saint-Germain')
+        ['Paris Saint-Germain', 'Paris SG', 'PSG', 'Paris'], 'Paris Saint-Germain')
     df['Away Team'] = df['Away Team'].replace(
-        ['Paris Saint-Germain', 'Paris SG', 'PSG'], 'Paris Saint-Germain')
+        ['Paris Saint-Germain', 'Paris SG', 'PSG', 'Paris'], 'Paris Saint-Germain')
     df.to_csv(data[i], index=False)
 
 # 'Real Madrid', 'Real Madrid CF' por 'Real Madrid"

@@ -7,7 +7,6 @@ df2020 = pd.read_csv('data/champions-league-2020-UTC.csv')
 df2021 = pd.read_csv('data/champions-league-2021-UTC.csv')
 df2022 = pd.read_csv('data/champions-league-2022-UTC.csv')
 df2023 = pd.read_csv('data/champions-league-2023-UTC.csv')
-dfUEFARanking = pd.read_csv('data/UEFA_Ranking.csv')
 
 # Eliminar las columnas que no interesan de los DataFrames (Date, Location, Group)
 
@@ -53,7 +52,7 @@ print(df2020.isnull().sum())
 print(df2021.isnull().sum())
 print(df2022.isnull().sum())
 '''
-
+'''
 # a csv
 df2017.to_csv('data/champions-league-2017.csv', index=False)
 df2018.to_csv('data/champions-league-2018.csv', index=False)
@@ -61,6 +60,7 @@ df2019.to_csv('data/champions-league-2019.csv', index=False)
 df2020.to_csv('data/champions-league-2020.csv', index=False)
 df2021.to_csv('data/champions-league-2021.csv', index=False)
 df2022.to_csv('data/champions-league-2022.csv', index=False)
+'''
 
 
 # crear un csv de equipos con goles totales segun los datos
@@ -104,3 +104,52 @@ diccionario_equipos_goles = dict(sorted(diccionario_equipos_goles.items(), key=l
 # pasar el diccionario a un csv con pandas con los campos 'Equipo' y 'Goles'
 df_equipos_goles = pd.DataFrame(diccionario_equipos_goles.items(), columns=['Equipo', 'Goles'])
 df_equipos_goles.to_csv('data/equipos-goles.csv', index=False)
+
+#ahora vamos a hacer un csv de equipos con su probabilidad de victoria, empate o derrota segun criterios establecidos
+#primero sacar otros dos diccionarios con las champions ganadas y el ranking uefa
+
+diccionario_equipos_champions = {}
+diccionario_equipos_ranking = {}
+
+def actualizar_equipos_champions(diccionario_equipos_champions, diccionario_equipos_goles):
+    # Leer el archivo CSV de victorias de la Champions League
+    df_wins = pd.read_csv('data/wins.csv', header=None, names=['Equipo', 'Victorias'])
+
+    # Iterar sobre los equipos en el diccionario de equipos y actualizar los datos de la Champions League
+    for equipo, goles in diccionario_equipos_goles.items():
+        # Buscar el equipo en el DataFrame de victorias de la Champions League
+        victorias_equipo = df_wins[df_wins['Equipo'] == equipo]['Victorias'].values
+        if len(victorias_equipo) > 0:
+            diccionario_equipos_champions[equipo] = victorias_equipo[0]
+        else:
+            diccionario_equipos_champions[equipo] = 0
+    
+    return diccionario_equipos_champions
+
+def actualizar_equipos_ranking(diccionario_equipos_ranking):
+    # Leer el archivo CSV del ranking UEFA
+    df_uefa_ranking = pd.read_csv('data/UEFA_Ranking.csv')
+
+    # Iterar sobre los equipos en el diccionario de equipos y actualizar los datos del ranking UEFA
+    for equipo in diccionario_equipos_ranking.keys():
+        # Buscar el equipo en el DataFrame del ranking UEFA
+        puntuaje_equipo = df_uefa_ranking[df_uefa_ranking['Club'] == equipo]['Total Points'].values
+        if len(puntuaje_equipo) > 0:
+            diccionario_equipos_ranking[equipo] = puntuaje_equipo[0]
+        else:
+            diccionario_equipos_ranking[equipo] = None
+    
+    return diccionario_equipos_ranking
+
+diccionario_equipos_champions = actualizar_equipos_champions(diccionario_equipos_champions, diccionario_equipos_goles)
+diccionario_equipos_ranking = actualizar_equipos_ranking(diccionario_equipos_ranking)
+
+print(diccionario_equipos_champions)
+diccionario_equipos_champions = {equipo: int(goles) if isinstance(goles, str) else goles for equipo, goles in diccionario_equipos_champions.items()}
+
+# Sumar los valores en el diccionario
+suma = sum(diccionario_equipos_champions.values())
+
+print("La suma de todos los valores en el diccionario es:", suma)
+print(diccionario_equipos_ranking)
+
