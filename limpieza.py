@@ -44,6 +44,14 @@ procesar_datos(df2020)
 procesar_datos(df2021)
 procesar_datos(df2022)
 
+#eliminar la columna result
+df2017 = df2017.drop(["Result"], axis=1)
+df2018 = df2018.drop(["Result"], axis=1)
+df2019 = df2019.drop(["Result"], axis=1)
+df2020 = df2020.drop(["Result"], axis=1)
+df2021 = df2021.drop(["Result"], axis=1)
+df2022 = df2022.drop(["Result"], axis=1)
+
 # Ver si hay valores nulos
 '''
 print(df2017.isnull().sum())

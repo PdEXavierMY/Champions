@@ -1,0 +1,126 @@
+Match Number,Round Number,Home Team,Away Team,Winner,Home Team Goals,Away Team Goals,Match Goals
+1,1,Zenit St. Petersburg,Club Brugge,Club Brugge,1,2,3
+2,1,Dynamo Kyiv,Juventus,Juventus,0,2,2
+3,1,Rennes,Krasnodar,Krasnodar,1,1,2
+4,1,Chelsea,Sevilla,Sevilla,0,0,0
+5,1,Lazio,Borussia Dortmund,Lazio,3,1,4
+6,1,FC Barcelona,Ferencváros,Barcelona,5,1,6
+7,1,Paris,Manchester United,Man. United,1,2,3
+8,1,Leipzig,Istanbul Basaksehir,Leipzig,2,0,2
+9,1,Salzburg,Lokomotiv Moskva,Lokomotiv Moskva,2,2,4
+10,1,Real Madrid,Shakhtar Donetsk,Shakhtar Donetsk,2,3,5
+11,1,Bayern München,Atlético Madrid,Bayern,4,0,4
+12,1,Internazionale,Borussia Mönchengladbach,Mönchengladbach,2,2,4
+13,1,Olympiacos,Marseille,Olympiacos,1,0,1
+14,1,Manchester City,FC Porto,Man. City,3,1,4
+15,1,Ajax,Liverpool,Liverpool,0,1,1
+16,1,Midtjylland,Atlantas Klaipeda,Atalanta,0,4,4
+17,2,Lokomotiv Moskva,Bayern München,Bayern,1,2,3
+18,2,Shakhtar Donetsk,Internazionale,Internazionale,0,0,0
+19,2,Atlético Madrid,Salzburg,Atlético,3,2,5
+20,2,Borussia Mönchengladbach,Real Madrid,Real Madrid,2,2,4
+21,2,FC Porto,Olympiacos,Porto,2,0,2
+22,2,Marseille,Manchester City,Man. City,0,3,3
+23,2,Atlantas Klaipeda,Ajax,Ajax,2,2,4
+24,2,Liverpool,Midtjylland,Liverpool,2,0,2
+25,2,Krasnodar,Chelsea,Chelsea,0,4,4
+26,2,Istanbul Basaksehir,Paris,Paris,0,2,2
+27,2,Sevilla,Rennes,Sevilla,1,0,1
+28,2,Club Brugge,Lazio,Lazio,1,1,2
+29,2,Borussia Dortmund,Zenit St. Petersburg,Dortmund,2,0,2
+30,2,Ferencváros,Dynamo Kyiv,Dynamo Kyiv,2,2,4
+31,2,Juventus,FC Barcelona,Barcelona,0,2,2
+32,2,Manchester United,Leipzig,Man. United,5,0,5
+33,3,Lokomotiv Moskva,Atlético Madrid,Atlético,1,1,2
+34,3,Shakhtar Donetsk,Borussia Mönchengladbach,Mönchengladbach,0,6,6
+35,3,Salzburg,Bayern München,Bayern,2,6,8
+36,3,Real Madrid,Internazionale,Real Madrid,3,2,5
+37,3,Manchester City,Olympiacos,Man. City,3,0,3
+38,3,FC Porto,Marseille,Porto,3,0,3
+39,3,Midtjylland,Ajax,Ajax,1,2,3
+40,3,Atlantas Klaipeda,Liverpool,Liverpool,0,5,5
+41,3,Zenit St. Petersburg,Lazio,Lazio,1,1,2
+42,3,Istanbul Basaksehir,Manchester United,Istanbul Basaksehir,2,1,3
+43,3,Chelsea,Rennes,Chelsea,3,0,3
+44,3,Sevilla,Krasnodar,Sevilla,3,2,5
+45,3,Club Brugge,Borussia Dortmund,Dortmund,0,3,3
+46,3,FC Barcelona,Dynamo Kyiv,Barcelona,2,1,3
+47,3,Ferencváros,Juventus,Juventus,1,4,5
+48,3,Leipzig,Paris,Leipzig,2,1,3
+49,4,Rennes,Chelsea,Chelsea,1,2,3
+50,4,Krasnodar,Sevilla,Sevilla,1,2,3
+51,4,Lazio,Zenit St. Petersburg,Lazio,3,1,4
+52,4,Borussia Dortmund,Club Brugge,Dortmund,3,0,3
+53,4,Dynamo Kyiv,FC Barcelona,Barcelona,0,4,4
+54,4,Juventus,Ferencváros,Juventus,2,1,3
+55,4,Paris,Leipzig,Paris,1,0,1
+56,4,Manchester United,Istanbul Basaksehir,Man. United,4,1,5
+57,4,Borussia Mönchengladbach,Shakhtar Donetsk,Mönchengladbach,4,0,4
+58,4,Olympiacos,Manchester City,Man. City,0,1,1
+59,4,Bayern München,Salzburg,Bayern,3,1,4
+60,4,Atlético Madrid,Lokomotiv Moskva,Lokomotiv Moskva,0,0,0
+61,4,Internazionale,Real Madrid,Real Madrid,0,2,2
+62,4,Marseille,FC Porto,Porto,0,2,2
+63,4,Ajax,Midtjylland,Ajax,3,1,4
+64,4,Liverpool,Atlantas Klaipeda,Atalanta,0,2,2
+65,5,Lokomotiv Moskva,Salzburg,Salzburg,1,3,4
+66,5,Shakhtar Donetsk,Real Madrid,Shakhtar Donetsk,2,0,2
+67,5,Atlético Madrid,Bayern München,Bayern,1,1,2
+68,5,Borussia Mönchengladbach,Internazionale,Internazionale,2,3,5
+69,5,Marseille,Olympiacos,Marseille,2,1,3
+70,5,FC Porto,Manchester City,Man. City,0,0,0
+71,5,Liverpool,Ajax,Liverpool,1,0,1
+72,5,Atlantas Klaipeda,Midtjylland,Midtjylland,1,1,2
+73,5,Krasnodar,Rennes,Krasnodar,1,0,1
+74,5,Istanbul Basaksehir,Leipzig,Leipzig,3,4,7
+75,5,Sevilla,Chelsea,Chelsea,0,4,4
+76,5,Borussia Dortmund,Lazio,Lazio,1,1,2
+77,5,Club Brugge,Zenit St. Petersburg,Club Brugge,3,0,3
+78,5,Juventus,Dynamo Kyiv,Juventus,3,0,3
+79,5,Ferencváros,FC Barcelona,Barcelona,0,3,3
+80,5,Manchester United,Paris,Paris,1,3,4
+81,6,Lazio,Club Brugge,Club Brugge,2,2,4
+82,6,Zenit St. Petersburg,Borussia Dortmund,Dortmund,1,2,3
+83,6,Rennes,Sevilla,Sevilla,1,3,4
+84,6,Chelsea,Krasnodar,Krasnodar,1,1,2
+85,6,Dynamo Kyiv,Ferencváros,Dynamo Kyiv,1,0,1
+86,6,FC Barcelona,Juventus,Juventus,0,3,3
+88,6,Leipzig,Manchester United,Leipzig,3,2,5
+87,6,Paris,Istanbul Basaksehir,Paris,5,1,6
+89,6,Ajax,Atlantas Klaipeda,Atalanta,0,1,1
+90,6,Midtjylland,Liverpool,Liverpool,1,1,2
+91,6,Bayern München,Lokomotiv Moskva,Bayern,2,0,2
+92,6,Salzburg,Atlético Madrid,Atlético,0,2,2
+93,6,Internazionale,Shakhtar Donetsk,Shakhtar Donetsk,0,0,0
+94,6,Real Madrid,Borussia Mönchengladbach,Real Madrid,2,0,2
+95,6,Olympiacos,FC Porto,Porto,0,2,2
+96,6,Manchester City,Marseille,Man. City,3,0,3
+97,R16 Game 1,FC Barcelona,Paris,Paris,1,4,5
+98,R16 Game 1,Leipzig,Liverpool,Liverpool,0,2,2
+99,R16 Game 1,FC Porto,Juventus,Porto,2,1,3
+100,R16 Game 1,Sevilla,Borussia Dortmund,Dortmund,2,3,5
+101,R16 Game 1,Atlético Madrid,Chelsea,Chelsea,0,1,1
+102,R16 Game 1,Lazio,Bayern München,Bayern,1,4,5
+103,R16 Game 1,Atlantas Klaipeda,Real Madrid,Real Madrid,0,1,1
+104,R16 Game 1,Borussia Mönchengladbach,Manchester City,Man. City,0,2,2
+105,R16 Game 2,Juventus,FC Porto,Juventus,3,2,5
+106,R16 Game 2,Borussia Dortmund,Sevilla,Sevilla,2,2,4
+107,R16 Game 2,Liverpool,Leipzig,Liverpool,2,0,2
+108,R16 Game 2,Paris,FC Barcelona,Barcelona,1,1,2
+109,R16 Game 2,Manchester City,Borussia Mönchengladbach,Man. City,2,0,2
+110,R16 Game 2,Real Madrid,Atlantas Klaipeda,Real Madrid,3,1,4
+111,R16 Game 2,Chelsea,Atlético Madrid,Chelsea,2,0,2
+112,R16 Game 2,Bayern München,Lazio,Bayern,2,1,3
+113,QF Game 1,Real Madrid,Liverpool,Real Madrid,3,1,4
+114,QF Game 1,Manchester City,Borussia Dortmund,Man. City,2,1,3
+115,QF Game 1,Bayern München,Paris,Paris,2,3,5
+116,QF Game 1,FC Porto,Chelsea,Chelsea,0,2,2
+117,QF Game 2,Chelsea,FC Porto,Porto,0,1,1
+118,QF Game 2,Paris,Bayern München,Bayern,0,1,1
+119,QF Game 2,Borussia Dortmund,Manchester City,Man. City,1,2,3
+120,QF Game 2,Liverpool,Real Madrid,Real Madrid,0,0,0
+121,SF Game 1,Real Madrid,Chelsea,Chelsea,1,1,2
+122,SF Game 1,Paris,Manchester City,Man. City,1,2,3
+123,SF Game 2,Manchester City,Paris,Man. City,2,0,2
+124,SF Game 2,Chelsea,Real Madrid,Chelsea,2,0,2
+125,Final,Manchester City,Chelsea,Chelsea,0,1,1

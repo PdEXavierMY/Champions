@@ -1,0 +1,126 @@
+Match Number,Round Number,Home Team,Away Team,Winner,Home Team Goals,Away Team Goals,Match Goals
+1,1,Benfica,CSKA Moscow,CSKA Moscow,1,2,3
+2,1,Manchester United,FC Basel,Manchester United,3,0,3
+13,1,Bayern München,Anderlecht,Bayern Munich,3,0,3
+14,1,Celtic,Paris Saint-Germain,Paris Saint-Germain,0,5,5
+25,1,Chelsea,Qarabag,Chelsea,6,0,6
+26,1,AS Roma,Atlético Madrid,Atlético Madrid,0,0,0
+37,1,FC Barcelona,Juventus,Barcelona,3,0,3
+38,1,Olympiacos,Sporting CP,Sporting CP,2,3,5
+49,1,Maribor,Spartak Moscow,Spartak Moscow,1,1,2
+50,1,Liverpool,Sevilla,Sevilla,2,2,4
+61,1,Feyenoord,Manchester City,Manchester City,0,4,4
+62,1,Shakhtar Donetsk,Napoli,Shakhtar Donetsk,2,1,3
+73,1,RB Leipzig,AS Monaco,Monaco,1,1,2
+74,1,FC Porto,Besiktas,Besiktas,1,3,4
+85,1,Real Madrid,APOEL Nicosia,Real Madrid,3,0,3
+86,1,Tottenham Hotspur,Borussia Dortmund,Tottenham Hotspur,3,1,4
+51,2,Sevilla,Maribor,Sevilla,3,0,3
+52,2,Spartak Moscow,Liverpool,Liverpool,1,1,2
+63,2,Napoli,Feyenoord,Napoli,3,1,4
+64,2,Manchester City,Shakhtar Donetsk,Manchester City,2,0,2
+75,2,Besiktas,RB Leipzig,Besiktas,2,0,2
+76,2,AS Monaco,FC Porto,Porto,0,3,3
+87,2,Borussia Dortmund,Real Madrid,Real Madrid,1,3,4
+88,2,APOEL Nicosia,Tottenham Hotspur,Tottenham Hotspur,0,3,3
+27,2,Qarabag,AS Roma,Roma,1,2,3
+3,2,FC Basel,Benfica,Basel,5,0,5
+4,2,CSKA Moscow,Manchester United,Manchester United,1,4,5
+15,2,Paris Saint-Germain,Bayern München,Paris Saint-Germain,3,0,3
+16,2,Anderlecht,Celtic,Celtic,0,3,3
+28,2,Atlético Madrid,Chelsea,Chelsea,1,2,3
+39,2,Sporting CP,FC Barcelona,Barcelona,0,1,1
+40,2,Juventus,Olympiacos,Juventus,2,0,2
+53,3,Spartak Moscow,Sevilla,Spartak Moscow,5,1,6
+54,3,Maribor,Liverpool,Liverpool,0,7,7
+65,3,Manchester City,Napoli,Manchester City,2,1,3
+66,3,Feyenoord,Shakhtar Donetsk,Shakhtar Donetsk,1,2,3
+77,3,AS Monaco,Besiktas,Besiktas,1,2,3
+78,3,RB Leipzig,FC Porto,RB Leipzig,3,2,5
+89,3,APOEL Nicosia,Borussia Dortmund,Borussia Dortmund,1,1,2
+90,3,Real Madrid,Tottenham Hotspur,Tottenham Hotspur,1,1,2
+29,3,Qarabag,Atlético Madrid,Atlético Madrid,0,0,0
+5,3,CSKA Moscow,FC Basel,Basel,0,2,2
+6,3,Benfica,Manchester United,Manchester United,0,1,1
+17,3,Anderlecht,Paris Saint-Germain,Paris Saint-Germain,0,4,4
+18,3,Bayern München,Celtic,Bayern Munich,3,0,3
+30,3,Chelsea,AS Roma,Roma,3,3,6
+41,3,Juventus,Sporting CP,Juventus,2,1,3
+42,3,FC Barcelona,Olympiacos,Barcelona,3,1,4
+7,4,FC Basel,CSKA Moscow,CSKA Moscow,1,2,3
+8,4,Manchester United,Benfica,Manchester United,2,0,2
+19,4,Paris Saint-Germain,Anderlecht,Paris Saint-Germain,5,0,5
+20,4,Celtic,Bayern München,Bayern Munich,1,2,3
+31,4,Atlético Madrid,Qarabag,Qarabag,1,1,2
+32,4,AS Roma,Chelsea,Roma,3,0,3
+43,4,Sporting CP,Juventus,Juventus,1,1,2
+44,4,Olympiacos,FC Barcelona,Barcelona,0,0,0
+79,4,Besiktas,AS Monaco,Monaco,1,1,2
+55,4,Sevilla,Spartak Moscow,Sevilla,2,1,3
+56,4,Liverpool,Maribor,Liverpool,3,0,3
+67,4,Napoli,Manchester City,Manchester City,2,4,6
+68,4,Shakhtar Donetsk,Feyenoord,Shakhtar Donetsk,3,1,4
+80,4,FC Porto,RB Leipzig,Porto,3,1,4
+91,4,Borussia Dortmund,APOEL Nicosia,APOEL,1,1,2
+92,4,Tottenham Hotspur,Real Madrid,Tottenham Hotspur,3,1,4
+57,5,Spartak Moscow,Maribor,Maribor,1,1,2
+81,5,Besiktas,FC Porto,Porto,1,1,2
+58,5,Sevilla,Liverpool,Liverpool,3,3,6
+69,5,Manchester City,Feyenoord,Manchester City,1,0,1
+70,5,Napoli,Shakhtar Donetsk,Napoli,3,0,3
+82,5,AS Monaco,RB Leipzig,RB Leipzig,1,4,5
+93,5,APOEL Nicosia,Real Madrid,Real Madrid,0,6,6
+94,5,Borussia Dortmund,Tottenham Hotspur,Tottenham Hotspur,1,2,3
+9,5,CSKA Moscow,Benfica,CSKA Moscow,2,0,2
+33,5,Qarabag,Chelsea,Chelsea,0,4,4
+10,5,FC Basel,Manchester United,Basel,1,0,1
+21,5,Anderlecht,Bayern München,Bayern Munich,1,2,3
+22,5,Paris Saint-Germain,Celtic,Paris Saint-Germain,7,1,8
+34,5,Atlético Madrid,AS Roma,Atlético Madrid,2,0,2
+45,5,Juventus,FC Barcelona,Barcelona,0,0,0
+46,5,Sporting CP,Olympiacos,Sporting CP,3,1,4
+11,6,Benfica,FC Basel,Basel,0,2,2
+12,6,Manchester United,CSKA Moscow,Manchester United,2,1,3
+23,6,Bayern München,Paris Saint-Germain,Bayern Munich,3,1,4
+24,6,Celtic,Anderlecht,Anderlecht,0,1,1
+35,6,Chelsea,Atlético Madrid,Atlético Madrid,1,1,2
+36,6,AS Roma,Qarabag,Roma,1,0,1
+47,6,FC Barcelona,Sporting CP,Barcelona,2,0,2
+48,6,Olympiacos,Juventus,Juventus,0,2,2
+59,6,Maribor,Sevilla,Sevilla,1,1,2
+60,6,Liverpool,Spartak Moscow,Liverpool,7,0,7
+71,6,Feyenoord,Napoli,Feyenoord,2,1,3
+72,6,Shakhtar Donetsk,Manchester City,Shakhtar Donetsk,2,1,3
+83,6,RB Leipzig,Besiktas,Besiktas,1,2,3
+84,6,FC Porto,AS Monaco,Porto,5,2,7
+95,6,Real Madrid,Borussia Dortmund,Real Madrid,3,2,5
+96,6,Tottenham Hotspur,APOEL Nicosia,Tottenham Hotspur,3,0,3
+97,Round of 16 - Game 1,Juventus,Tottenham Hotspur,Tottenham Hotspur,2,2,4
+98,Round of 16 - Game 1,FC Basel,Manchester City,Manchester City,0,4,4
+99,Round of 16 - Game 1,FC Porto,Liverpool,Liverpool,0,5,5
+100,Round of 16 - Game 1,Real Madrid,Paris Saint-Germain,Real Madrid,3,1,4
+101,Round of 16 - Game 1,Chelsea,FC Barcelona,Barcelona,1,1,2
+102,Round of 16 - Game 1,Bayern München,Besiktas,Bayern Munich,5,0,5
+103,Round of 16 - Game 1,Sevilla,Manchester United,Manchester United,0,0,0
+104,Round of 16 - Game 1,Shakhtar Donetsk,AS Roma,Shakhtar Donetsk,2,1,3
+105,Round of 16 - Game 2,Liverpool,FC Porto,Porto,0,0,0
+106,Round of 16 - Game 2,Paris Saint-Germain,Real Madrid,Real Madrid,1,2,3
+107,Round of 16 - Game 2,Tottenham Hotspur,Juventus,Juventus,1,2,3
+108,Round of 16 - Game 2,Manchester City,FC Basel,Basel,1,2,3
+109,Round of 16 - Game 2,Manchester United,Sevilla,Sevilla,1,2,3
+110,Round of 16 - Game 2,AS Roma,Shakhtar Donetsk,Roma,1,0,1
+112,Round of 16 - Game 2,Besiktas,Bayern München,Bayern Munich,1,3,4
+111,Round of 16 - Game 2,FC Barcelona,Chelsea,Barcelona,3,0,3
+113,Qtr Finals - Game 1,Sevilla,Bayern München,Bayern Munich,1,2,3
+114,Qtr Finals - Game 1,Juventus,Real Madrid,Real Madrid,0,3,3
+115,Qtr Finals - Game 1,Liverpool,Manchester City,Liverpool,3,0,3
+116,Qtr Finals - Game 1,FC Barcelona,AS Roma,Barcelona,4,1,5
+117,Qtr Finals - Game 2,Manchester City,Liverpool,Liverpool,1,2,3
+118,Qtr Finals - Game 2,AS Roma,FC Barcelona,Roma,3,0,3
+119,Qtr Finals - Game 2,Bayern München,Sevilla,Sevilla,0,0,0
+120,Qtr Finals - Game 2,Real Madrid,Juventus,Juventus,1,3,4
+121,Semi Finals - Game 1,Liverpool,AS Roma,Liverpool,5,2,7
+122,Semi Finals - Game 1,Bayern München,Real Madrid,Real Madrid,1,2,3
+123,Semi Finals - Game 2,Real Madrid,Bayern München,Bayern Munich,2,2,4
+124,Semi Finals - Game 2,AS Roma,Liverpool,Roma,4,2,6
+125,Final,Real Madrid,Liverpool,Real Madrid,3,1,4
