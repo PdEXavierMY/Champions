@@ -9,6 +9,8 @@ for i in range(len(data)):
         ['Atletico Madrid', 'Atlético', 'Atlético de Madrid'], 'Atlético Madrid')
     df['Away Team'] = df['Away Team'].replace(
         ['Atletico Madrid', 'Atlético', 'Atlético de Madrid'], 'Atlético Madrid')
+    df['Winner'] = df['Winner'].replace(
+        ['Atletico Madrid', 'Atlético', 'Atlético de Madrid'], 'Atlético Madrid')
     df.to_csv(data[i], index=False)
 
 # FC Bayern Munich', 'Bayern Munich', 'Bayern' por 'Bayern München'
