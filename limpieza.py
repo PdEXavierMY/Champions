@@ -114,7 +114,7 @@ diccionario_equipos_ranking = {}
 
 def actualizar_equipos_champions(diccionario_equipos_champions, diccionario_equipos_goles):
     # Leer el archivo CSV de victorias de la Champions League
-    df_wins = pd.read_csv('data/wins.csv', header=None, names=['Equipo', 'Victorias'])
+    df_wins = pd.read_csv('data/champions_wins.csv', header=None, names=['Equipo', 'Victorias'])
 
     # Iterar sobre los equipos en el diccionario de equipos y actualizar los datos de la Champions League
     for equipo, goles in diccionario_equipos_goles.items():
