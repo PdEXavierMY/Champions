@@ -21,7 +21,7 @@ def install_dependencies():
 def main():
     create_virtual_environment()
     # Activamos el entorno virtual antes de instalar las dependencias
-    activate_script = os.path.join('venv', 'Scripts', 'activate')
+    activate_script = os.path.join('venv', 'Scripts', 'activate.bat')
     exec(open(activate_script).read(), {'__file__': activate_script})
     install_dependencies()
 
