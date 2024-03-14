@@ -15,14 +15,14 @@ def create_virtual_environment():
 def install_dependencies():
     print("Instalando dependencias...")
     # Instalamos las dependencias utilizando pip
-    subprocess.check_call([os.path.join('venv', 'bin', 'pip'), 'install', '-r', 'requirements.txt'])
+    subprocess.check_call([os.path.join('venv', 'Scripts', 'pip.exe'), 'install', '-r', 'requirements.txt'])
     print("Dependencias instaladas exitosamente.")
 
 def main():
     create_virtual_environment()
     # Activamos el entorno virtual antes de instalar las dependencias
     activate_script = os.path.join('venv', 'Scripts', 'activate.bat')
-    exec(open(activate_script).read(), {'__file__': activate_script})
+    subprocess.call(activate_script, shell=True)
     install_dependencies()
 
 if __name__ == "__main__":
