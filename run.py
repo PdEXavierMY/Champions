@@ -1,3 +1,5 @@
+#crear entorno virtual y instalar dependencias en un sistema basado en Windows
+
 import subprocess
 import sys
 import os
