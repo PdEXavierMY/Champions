@@ -1,0 +1,126 @@
+Match Number,Round Number,Home Team,Away Team,Result,Winner,Home Team Goals,Away Team Goals,Match Goals,Home Team Name,Away Team Name,Home is Winner,Goal Difference,Home Goals Ratio,Away Goals Ratio
+1,1,43,9,1 - 0,43,1,0,1,Dinamo Zagreb,Chelsea,1,1,1.0,0.0
+2,1,13,38,3 - 0,13,3,0,3,Borussia Dortmund,FC København,1,3,1.0,0.0
+3,1,28,25,1 - 1,25,1,1,2,FC Salzburg,AC Milan,0,0,0.5,0.5
+4,1,50,1,0 - 3,1,0,3,3,Celtic,Real Madrid,0,-3,0.0,1.0
+5,1,24,21,1 - 4,21,1,4,5,RB Leipzig,Shakhtar Donetsk,0,-3,0.2,0.8
+6,1,10,4,0 - 4,4,0,4,4,Sevilla,Manchester City,0,-4,0.0,1.0
+7,1,8,6,2 - 1,8,2,1,3,Paris Saint-Germain,Juventus,1,1,0.6666666666666666,0.3333333333333333
+8,1,20,162,2 - 0,20,2,0,2,Benfica,Maccabi Haifa,1,2,1.0,0.0
+9,1,17,49,4 - 0,17,4,0,4,Ajax,Glasgow Rangers,1,4,1.0,0.0
+10,1,35,29,0 - 3,29,0,3,3,Eintracht Frankfurt,Sporting CP Lisbon,0,-3,0.0,1.0
+11,1,16,5,4 - 1,16,4,1,5,Napoli,Liverpool,1,3,0.8,0.2
+12,1,7,12,2 - 1,7,2,1,3,Atlético Madrid,FC Porto,1,1,0.6666666666666666,0.3333333333333333
+13,1,31,22,1 - 0,31,1,0,1,Club Brugge,Bayer Leverkusen,1,1,1.0,0.0
+14,1,3,60,5 - 1,3,5,1,6,FC Barcelona,Viktoria Plzen,1,4,0.8333333333333334,0.16666666666666666
+15,1,18,2,0 - 2,2,0,2,2,Internazionale,Bayern München,0,-2,0.0,1.0
+16,1,23,42,2 - 0,23,2,0,2,Tottenham Hotspur,Olympique Marseille,1,2,1.0,0.0
+17,2,60,18,0 - 2,18,0,2,2,Viktoria Plzen,Internazionale,0,-2,0.0,1.0
+18,2,29,23,2 - 0,29,2,0,2,Sporting CP Lisbon,Tottenham Hotspur,1,2,1.0,0.0
+19,2,5,17,2 - 1,5,2,1,3,Liverpool,Ajax,1,1,0.6666666666666666,0.3333333333333333
+21,2,12,31,0 - 4,31,0,4,4,FC Porto,Club Brugge,0,-4,0.0,1.0
+22,2,22,7,2 - 0,22,2,0,2,Bayer Leverkusen,Atlético Madrid,1,2,1.0,0.0
+23,2,2,3,2 - 0,2,2,0,2,Bayern München,FC Barcelona,1,2,1.0,0.0
+24,2,42,35,0 - 1,35,0,1,1,Olympique Marseille,Eintracht Frankfurt,0,-1,0.0,1.0
+25,2,25,43,3 - 1,25,3,1,4,AC Milan,Dinamo Zagreb,1,2,0.75,0.25
+26,2,21,50,1 - 1,50,1,1,2,Shakhtar Donetsk,Celtic,0,0,0.5,0.5
+20,2,49,16,0 - 3,16,0,3,3,Glasgow Rangers,Napoli,0,-3,0.0,1.0
+27,2,9,28,1 - 1,28,1,1,2,Chelsea,FC Salzburg,0,0,0.5,0.5
+28,2,1,24,2 - 0,1,2,0,2,Real Madrid,RB Leipzig,1,2,1.0,0.0
+29,2,4,13,2 - 1,4,2,1,3,Manchester City,Borussia Dortmund,1,1,0.6666666666666666,0.3333333333333333
+30,2,38,10,0 - 0,10,0,0,0,FC København,Sevilla,0,0,,
+31,2,6,20,1 - 2,20,1,2,3,Juventus,Benfica,0,-1,0.3333333333333333,0.6666666666666666
+32,2,162,8,1 - 3,8,1,3,4,Maccabi Haifa,Paris Saint-Germain,0,-2,0.25,0.75
+33,3,2,60,5 - 0,2,5,0,5,Bayern München,Viktoria Plzen,1,5,1.0,0.0
+34,3,42,29,4 - 1,42,4,1,5,Olympique Marseille,Sporting CP Lisbon,1,3,0.8,0.2
+35,3,5,49,2 - 0,5,2,0,2,Liverpool,Glasgow Rangers,1,2,1.0,0.0
+36,3,17,16,1 - 6,16,1,6,7,Ajax,Napoli,0,-5,0.14285714285714285,0.8571428571428571
+37,3,12,22,2 - 0,12,2,0,2,FC Porto,Bayer Leverkusen,1,2,1.0,0.0
+38,3,31,7,2 - 0,31,2,0,2,Club Brugge,Atlético Madrid,1,2,1.0,0.0
+39,3,18,3,1 - 0,18,1,0,1,Internazionale,FC Barcelona,1,1,1.0,0.0
+40,3,35,23,0 - 0,23,0,0,0,Eintracht Frankfurt,Tottenham Hotspur,0,0,,
+41,3,28,43,1 - 0,28,1,0,1,FC Salzburg,Dinamo Zagreb,1,1,1.0,0.0
+42,3,24,50,3 - 1,24,3,1,4,RB Leipzig,Celtic,1,2,0.75,0.25
+43,3,9,25,3 - 0,9,3,0,3,Chelsea,AC Milan,1,3,1.0,0.0
+44,3,1,21,2 - 1,1,2,1,3,Real Madrid,Shakhtar Donetsk,1,1,0.6666666666666666,0.3333333333333333
+45,3,4,38,5 - 0,4,5,0,5,Manchester City,FC København,1,5,1.0,0.0
+46,3,10,13,1 - 4,13,1,4,5,Sevilla,Borussia Dortmund,0,-3,0.2,0.8
+47,3,6,162,3 - 1,6,3,1,4,Juventus,Maccabi Haifa,1,2,0.75,0.25
+48,3,20,8,1 - 1,8,1,1,2,Benfica,Paris Saint-Germain,0,0,0.5,0.5
+49,4,38,4,0 - 0,4,0,0,0,FC København,Manchester City,0,0,,
+50,4,162,6,2 - 0,162,2,0,2,Maccabi Haifa,Juventus,1,2,1.0,0.0
+51,4,43,28,1 - 1,28,1,1,2,Dinamo Zagreb,FC Salzburg,0,0,0.5,0.5
+52,4,25,9,0 - 2,9,0,2,2,AC Milan,Chelsea,0,-2,0.0,1.0
+53,4,21,1,1 - 1,1,1,1,2,Shakhtar Donetsk,Real Madrid,0,0,0.5,0.5
+54,4,50,24,0 - 2,24,0,2,2,Celtic,RB Leipzig,0,-2,0.0,1.0
+55,4,13,10,1 - 1,10,1,1,2,Borussia Dortmund,Sevilla,0,0,0.5,0.5
+56,4,8,20,1 - 1,20,1,1,2,Paris Saint-Germain,Benfica,0,0,0.5,0.5
+57,4,16,17,4 - 2,16,4,2,6,Napoli,Ajax,1,2,0.6666666666666666,0.3333333333333333
+58,4,7,31,0 - 0,31,0,0,0,Atlético Madrid,Club Brugge,0,0,,
+59,4,49,5,1 - 7,5,1,7,8,Glasgow Rangers,Liverpool,0,-6,0.125,0.875
+60,4,22,12,0 - 3,12,0,3,3,Bayer Leverkusen,FC Porto,0,-3,0.0,1.0
+61,4,3,18,3 - 3,18,3,3,6,FC Barcelona,Internazionale,0,0,0.5,0.5
+62,4,60,2,2 - 4,2,2,4,6,Viktoria Plzen,Bayern München,0,-2,0.3333333333333333,0.6666666666666666
+63,4,23,35,3 - 2,23,3,2,5,Tottenham Hotspur,Eintracht Frankfurt,1,1,0.6,0.4
+64,4,29,42,0 - 2,42,0,2,2,Sporting CP Lisbon,Olympique Marseille,0,-2,0.0,1.0
+65,5,28,9,1 - 2,9,1,2,3,FC Salzburg,Chelsea,0,-1,0.3333333333333333,0.6666666666666666
+66,5,10,38,3 - 0,10,3,0,3,Sevilla,FC København,1,3,1.0,0.0
+67,5,43,25,0 - 4,25,0,4,4,Dinamo Zagreb,AC Milan,0,-4,0.0,1.0
+68,5,50,21,1 - 1,21,1,1,2,Celtic,Shakhtar Donetsk,0,0,0.5,0.5
+69,5,24,1,3 - 2,24,3,2,5,RB Leipzig,Real Madrid,1,1,0.6,0.4
+70,5,13,4,0 - 0,4,0,0,0,Borussia Dortmund,Manchester City,0,0,,
+71,5,8,162,7 - 2,8,7,2,9,Paris Saint-Germain,Maccabi Haifa,1,5,0.7777777777777778,0.2222222222222222
+72,5,20,6,4 - 3,20,4,3,7,Benfica,Juventus,1,1,0.5714285714285714,0.42857142857142855
+73,5,31,12,0 - 4,12,0,4,4,Club Brugge,FC Porto,0,-4,0.0,1.0
+74,5,18,60,4 - 0,18,4,0,4,Internazionale,Viktoria Plzen,1,4,1.0,0.0
+75,5,16,49,3 - 0,16,3,0,3,Napoli,Glasgow Rangers,1,3,1.0,0.0
+76,5,17,5,0 - 3,5,0,3,3,Ajax,Liverpool,0,-3,0.0,1.0
+77,5,7,22,2 - 2,22,2,2,4,Atlético Madrid,Bayer Leverkusen,0,0,0.5,0.5
+78,5,3,2,0 - 3,2,0,3,3,FC Barcelona,Bayern München,0,-3,0.0,1.0
+79,5,23,29,1 - 1,29,1,1,2,Tottenham Hotspur,Sporting CP Lisbon,0,0,0.5,0.5
+80,5,35,42,2 - 1,35,2,1,3,Eintracht Frankfurt,Olympique Marseille,1,1,0.6666666666666666,0.3333333333333333
+81,6,12,7,2 - 1,12,2,1,3,FC Porto,Atlético Madrid,1,1,0.6666666666666666,0.3333333333333333
+82,6,22,31,0 - 0,31,0,0,0,Bayer Leverkusen,Club Brugge,0,0,,
+83,6,5,16,2 - 0,5,2,0,2,Liverpool,Napoli,1,2,1.0,0.0
+84,6,49,17,1 - 3,17,1,3,4,Glasgow Rangers,Ajax,0,-2,0.25,0.75
+85,6,2,18,2 - 0,2,2,0,2,Bayern München,Internazionale,1,2,1.0,0.0
+86,6,60,3,2 - 4,3,2,4,6,Viktoria Plzen,FC Barcelona,0,-2,0.3333333333333333,0.6666666666666666
+87,6,29,35,1 - 2,35,1,2,3,Sporting CP Lisbon,Eintracht Frankfurt,0,-1,0.3333333333333333,0.6666666666666666
+88,6,42,23,1 - 2,23,1,2,3,Olympique Marseille,Tottenham Hotspur,0,-1,0.3333333333333333,0.6666666666666666
+89,6,1,50,5 - 1,1,5,1,6,Real Madrid,Celtic,1,4,0.8333333333333334,0.16666666666666666
+90,6,21,24,0 - 4,24,0,4,4,Shakhtar Donetsk,RB Leipzig,0,-4,0.0,1.0
+91,6,9,43,2 - 1,9,2,1,3,Chelsea,Dinamo Zagreb,1,1,0.6666666666666666,0.3333333333333333
+92,6,25,28,4 - 0,25,4,0,4,AC Milan,FC Salzburg,1,4,1.0,0.0
+93,6,4,10,3 - 1,4,3,1,4,Manchester City,Sevilla,1,2,0.75,0.25
+94,6,38,13,1 - 1,13,1,1,2,FC København,Borussia Dortmund,0,0,0.5,0.5
+95,6,6,8,1 - 2,8,1,2,3,Juventus,Paris Saint-Germain,0,-1,0.3333333333333333,0.6666666666666666
+96,6,162,20,1 - 6,20,1,6,7,Maccabi Haifa,Benfica,0,-5,0.14285714285714285,0.8571428571428571
+97,R16 Game 1,25,23,1 - 0,25,1,0,1,AC Milan,Tottenham Hotspur,1,1,1.0,0.0
+98,R16 Game 1,8,2,0 - 1,2,0,1,1,Paris Saint-Germain,Bayern München,0,-1,0.0,1.0
+99,R16 Game 1,31,20,0 - 2,20,0,2,2,Club Brugge,Benfica,0,-2,0.0,1.0
+100,R16 Game 1,13,9,1 - 0,13,1,0,1,Borussia Dortmund,Chelsea,1,1,1.0,0.0
+101,R16 Game 1,5,1,2 - 5,1,2,5,7,Liverpool,Real Madrid,0,-3,0.2857142857142857,0.7142857142857143
+102,R16 Game 1,35,16,0 - 2,16,0,2,2,Eintracht Frankfurt,Napoli,0,-2,0.0,1.0
+103,R16 Game 1,24,4,1 - 1,4,1,1,2,RB Leipzig,Manchester City,0,0,0.5,0.5
+104,R16 Game 1,18,12,1 - 0,18,1,0,1,Internazionale,FC Porto,1,1,1.0,0.0
+105,R16 Game 2,20,31,5 - 1,20,5,1,6,Benfica,Club Brugge,1,4,0.8333333333333334,0.16666666666666666
+106,R16 Game 2,9,13,2 - 0,9,2,0,2,Chelsea,Borussia Dortmund,1,2,1.0,0.0
+108,R16 Game 2,2,8,2 - 0,2,2,0,2,Bayern München,Paris Saint-Germain,1,2,1.0,0.0
+107,R16 Game 2,23,25,0 - 0,25,0,0,0,Tottenham Hotspur,AC Milan,0,0,,
+109,R16 Game 2,4,24,7 - 0,4,7,0,7,Manchester City,RB Leipzig,1,7,1.0,0.0
+110,R16 Game 2,12,18,0 - 0,18,0,0,0,FC Porto,Internazionale,0,0,,
+111,R16 Game 2,1,5,1 - 0,1,1,0,1,Real Madrid,Liverpool,1,1,1.0,0.0
+112,R16 Game 2,16,35,3 - 0,16,3,0,3,Napoli,Eintracht Frankfurt,1,3,1.0,0.0
+113,QF Game 1,20,18,0 - 2,18,0,2,2,Benfica,Internazionale,0,-2,0.0,1.0
+114,QF Game 1,4,2,3 - 0,4,3,0,3,Manchester City,Bayern München,1,3,1.0,0.0
+115,QF Game 1,1,9,2 - 0,1,2,0,2,Real Madrid,Chelsea,1,2,1.0,0.0
+116,QF Game 1,25,16,1 - 0,25,1,0,1,AC Milan,Napoli,1,1,1.0,0.0
+117,QF Game 2,16,25,1 - 1,25,1,1,2,Napoli,AC Milan,0,0,0.5,0.5
+118,QF Game 2,9,1,0 - 2,1,0,2,2,Chelsea,Real Madrid,0,-2,0.0,1.0
+119,QF Game 2,2,4,1 - 1,4,1,1,2,Bayern München,Manchester City,0,0,0.5,0.5
+120,QF Game 2,18,20,3 - 3,20,3,3,6,Internazionale,Benfica,0,0,0.5,0.5
+121,SF Game 1,1,4,1 - 1,4,1,1,2,Real Madrid,Manchester City,0,0,0.5,0.5
+122,SF Game 1,25,18,0 - 2,18,0,2,2,AC Milan,Internazionale,0,-2,0.0,1.0
+123,SF Game 2,18,25,1 - 0,18,1,0,1,Internazionale,AC Milan,1,1,1.0,0.0
+124,SF Game 2,4,1,4 - 0,4,4,0,4,Manchester City,Real Madrid,1,4,1.0,0.0
+125,Final,4,18,1 - 0,4,1,0,1,Manchester City,Internazionale,1,1,1.0,0.0
