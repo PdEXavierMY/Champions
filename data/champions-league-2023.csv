@@ -1,4 +1,4 @@
-Match Number,Round Number,Home Team,Away Team,Result
+Match Number,Round Number,Home Team,Away Team,Result,Winner
 1,1,AC Milan,Newcastle,0 - 0
 2,1,Young Boys,RB Leipzig,1 - 3
 3,1,Feyenoord,Celtic,2 - 0
@@ -111,3 +111,16 @@ Match Number,Round Number,Home Team,Away Team,Result
 110,8,FC Barcelona,Napoli,3 - 1
 111,8,Atlético Madrid,Internazionale,2 - 1
 112,8,Borussia Dortmund,PSV Eindhoven,2 - 0
+113,9,Atlético Madrid,Borussia Dortmund,2 - 1,Atlético Madrid
+114,9,Paris Saint-Germain,FC Barcelona,2 - 3,FC Barcelona
+115,9,Arsenal,Bayern München,2 - 2,Bayern München
+116,9,Real Madrid,Manchester City,3 - 3,Real Madrid
+117,10,Borussia Dortmund,Atlético Madrid,4 - 2,Borussia Dortmund
+118,10,FC Barcelona,Paris Saint-Germain,1 - 4,Paris Saint-Germain
+119,10,Bayern München,Arsenal,1 - 0,Bayern München
+120,10,Manchester City,Real Madrid,1 - 1,Real Madrid
+121,11,Borussia Dortmund,Paris Saint-Germain,
+122,11,Bayern München,Real Madrid,
+123,12,Paris Saint-Germain,Borussia Dortmund,
+124,12,Real Madrid,Bayern München,
+125,13,
